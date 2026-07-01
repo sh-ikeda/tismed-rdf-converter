@@ -1,0 +1,3 @@
+Specific system/tissue	UniProt Entry	Protein names	Ensembl gene id	Gene symbol	Mean SPMadjust value	Tscore	Support dataset count	Tissue class
+liver	Q9NQ94	APOBEC1 complementation factor (APOBEC1-stimulating protein)	ENSG00000148584	A1CF	0.94	1	3	tissue
+Digestive System	Q9NQ94	APOBEC1 complementation factor (APOBEC1-stimulating protein)	ENSG00000148584	A1CF	0.94	0.64	2	system

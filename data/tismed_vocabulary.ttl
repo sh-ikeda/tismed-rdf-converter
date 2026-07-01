@@ -1,0 +1,80 @@
+@prefix tismedo:  <http://med2rdf.org/ontology/med2rdf/tismed/> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://med2rdf.org/ontology/med2rdf/tismed/>
+    a owl:Ontology ;
+    rdfs:label "TiSMeD Vocabulary" .
+
+## Classes ##
+
+tismedo:ts_evaluated_gene
+    a owl:Class ;
+    rdfs:label "Tissue-Specificity Evaluated Gene" ;
+    dcterms:description "A gene that has been evaluated for tissue-specific expression in TiSMeD." .
+
+tismedo:ts_evaluated_protein
+    a owl:Class ;
+    rdfs:label "Tissue-Specificity Evaluated Protein" ;
+    dcterms:description "A protein that has been evaluated for tissue-specific expression in TiSMeD." .
+
+tismedo:GeneExpressionSpecificity
+    a owl:Class ;
+    rdfs:label "Gene Expression Specificity" ;
+    dcterms:description "A record describing the tissue-specific expression characteristics of a gene in a particular tissue context." .
+
+tismedo:ProteinExpressionSpecificity
+    a owl:Class ;
+    rdfs:label "Protein Expression Specificity" ;
+    dcterms:description "A record describing the tissue-specific expression characteristics of a protein in a particular tissue context." .
+
+## Object Properties ##
+
+tismedo:hasGeneExpressionSpecificity
+    a owl:ObjectProperty ;
+    rdfs:label "has gene expression specificity" ;
+    dcterms:description "Links an evaluated gene to its gene expression specificity record." ;
+    rdfs:domain tismedo:ts_evaluated_gene ;
+    rdfs:range  tismedo:GeneExpressionSpecificity .
+
+tismedo:hasProteinExpressionSpecificity
+    a owl:ObjectProperty ;
+    rdfs:label "has protein expression specificity" ;
+    dcterms:description "Links an evaluated protein to its protein expression specificity record." ;
+    rdfs:domain tismedo:ts_evaluated_protein ;
+    rdfs:range  tismedo:ProteinExpressionSpecificity .
+
+tismedo:isPositivelySpecificTo
+    a owl:ObjectProperty ;
+    rdfs:label "is positively specific to" ;
+    dcterms:description "Indicates that the expression of a gene or protein is specifically enriched in the given tissue." .
+
+## Datatype Properties ##
+
+tismedo:meanSpmAdjustValue
+    a owl:DatatypeProperty ;
+    rdfs:label "mean SPM adjust value" ;
+    dcterms:description "The mean tissue-specificity score (SPMadjust) corrected for dimensional bias caused by differences in the number of tissues across datasets. Ranges from 0 to 1.0; values closer to 1.0 indicate higher tissue specificity. In TiSMeD, a mean SPMadjust value of 0.8 or above is required for a feature to be considered tissue-specific." ;
+    rdfs:range xsd:decimal .
+
+tismedo:tScore
+    a owl:DatatypeProperty ;
+    rdfs:label "T-score" ;
+    dcterms:description "The Tissue-Specific Confidence Score, which quantifies the consistency and reliability of tissue-specific characteristics across independent datasets. Ranges from 0 to 1.0; higher values indicate stronger cross-dataset agreement. In TiSMeD, a T-score of 0.6 or above is required for a feature to be considered tissue-specific." ;
+    rdfs:range xsd:decimal .
+
+tismedo:supportDatasetCount
+    a owl:DatatypeProperty ;
+    rdfs:label "support dataset count" ;
+    dcterms:description "The total number of independent valid datasets that provided evidence supporting tissue-specific expression in the given tissue. In TiSMeD, a supportDatasetCount of 2 or more is typically required for a feature to be classified as high-confidence tissue-specific, ensuring that the specificity reflects biological reproducibility rather than a single-experiment artifact." ;
+    rdfs:range xsd:integer .
+
+tismedo:hasTissueSpecificProtein
+    a owl:DatatypeProperty ;
+    rdfs:label "has tissue-specific protein" ;
+    dcterms:description "A boolean value indicating whether the protein encoded by the gene has also been confirmed to show tissue-specific expression at the protein level." ;
+    rdfs:domain tismedo:GeneExpressionSpecificity ;
+    rdfs:range  xsd:boolean .

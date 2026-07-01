@@ -1,0 +1,21 @@
+@prefix uniprot: <http://purl.uniprot.org/uniprot/> .
+@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> .
+
+uniprot:Q9NQ94 a tismedo:ts_evaluated_protein ;
+    tismedo:hasProteinExpressionSpecificity [
+        a tismedo:ProteinExpressionSpecificity ;
+        tismedo:isPositivelySpecificTo tismedo:TISMEDT_000031 ;
+        tismedo:meanSpmAdjustValue 0.94 ;
+        tismedo:tScore 1 ;
+        tismedo:supportDatasetCount 3
+    ] .
+
+uniprot:Q9NQ94 a tismedo:ts_evaluated_protein ;
+    tismedo:hasProteinExpressionSpecificity [
+        a tismedo:ProteinExpressionSpecificity ;
+        tismedo:isPositivelySpecificTo tismedo:TISMEDT_000018 ;
+        tismedo:meanSpmAdjustValue 0.94 ;
+        tismedo:tScore 0.64 ;
+        tismedo:supportDatasetCount 2
+    ] .
+
