@@ -19,14 +19,16 @@ Cardiovascular System	arteries	arteries_aorta
 ### オントロジーファイル作成
 TiSMeD 定義の組織分類に ID を割り当てる。  
 ```
-awk -f scripts/tissue_hierarchy_ids.awk data/tismed_tissue_hierarchy.tsv > data/tismed_tissue_ids.tsv``
-`
+awk -f scripts/tissue_hierarchy_ids.awk data/tismed_tissue_hierarchy.tsv > data/tismed_tissue_ids.tsv
+```
 ラベルを UBERON にマッピング。EBI OLS の MCP サーバーを使ってマッピングを実施した結果を `/data/tismed_tissue_ids_with_uberon.tsv` として配置した。  
 
 これをオントロジーの turtle ファイルに変換する。  
 ```
-awk -f scripts/generate_ontology.awk data/tismed_tissue_uberon_mapping.tsv data/tismed_tissue_hierarchy.tsv > output/tismed_ontology.ttl
+awk -f scripts/generate_ontology.awk data/tismed_tissue_uberon_mapping.tsv data/tismed_tissue_hierarchy.tsv > output/tismed_vocabulary_tissue.ttl
 ```
+
+プロパティなどを記述した `tismed_vocabulary.ttl` は AI 生成。
 
 ### 本体の RDF ファイル作成
 ```
