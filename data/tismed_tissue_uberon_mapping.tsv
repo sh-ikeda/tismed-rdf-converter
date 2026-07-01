@@ -1,0 +1,290 @@
+TISMEDT_000001	Cardiovascular System	UBERON:0004535	cardiovascular system
+TISMEDT_000002	arteries	UBERON:0001637	artery
+TISMEDT_000003	arteries_abdominal aorta	UBERON:0001516	abdominal aorta
+TISMEDT_000004	arteries_aorta	UBERON:0000947	aorta
+TISMEDT_000005	arteries_ascending aorta	UBERON:0001496	ascending aorta
+TISMEDT_000006	arteries_coronary vessels	UBERON:0005985	coronary vessel
+TISMEDT_000007	arteries_splenic artery	UBERON:0001194	splenic artery
+TISMEDT_000008	arteries_thoracic aorta	UBERON:0001515	thoracic aorta
+TISMEDT_000009	arteries_tibial arteries	UBERON:0007610	tibial artery
+TISMEDT_000010	heart	UBERON:0000948	heart
+TISMEDT_000011	heart_atrial appendage	UBERON:0006618	atrium auricular region
+TISMEDT_000012	heart_atrioventricular node	UBERON:0002352	atrioventricular node
+TISMEDT_000013	heart_left ventricle	UBERON:0002084	heart left ventricle
+TISMEDT_000014	heart_pericardium	UBERON:0002407	pericardium
+TISMEDT_000015	heart_right atrium	UBERON:0002078	right cardiac atrium
+TISMEDT_000016	heart_right atrium auricular region	UBERON:0006631	right atrium auricular region
+TISMEDT_000017	heart_right ventricle	UBERON:0002080	heart right ventricle
+TISMEDT_000018	Digestive System	UBERON:0001007	digestive system
+TISMEDT_000019	cecum	UBERON:0001153	caecum
+TISMEDT_000020	cecum_appendix	UBERON:0001154	vermiform appendix
+TISMEDT_000021	colon	UBERON:0001155	colon
+TISMEDT_000022	colon_sigmoid colon	UBERON:0001159	sigmoid colon
+TISMEDT_000023	colon_transverse colon	UBERON:0001157	transverse colon
+TISMEDT_000024	esophagus	UBERON:0001043	esophagus
+TISMEDT_000025	esophagus_gastroesophageal junction	UBERON:0007650	esophagogastric junction
+TISMEDT_000026	esophagus_mucosa	UBERON:0000344	mucosa
+TISMEDT_000027	esophagus_muscularis	UBERON:0006660	muscular coat
+TISMEDT_000028	esophagus_muscularis mucosa	UBERON:0006676	muscularis mucosa
+TISMEDT_000029	esophagus_squamous epithelium	UBERON:0006914	squamous epithelium
+TISMEDT_000030	gallbladder	UBERON:0002110	gall bladder
+TISMEDT_000031	liver	UBERON:0002107	liver
+TISMEDT_000032	liver_right lobe	UBERON:0001114	right lobe of liver
+TISMEDT_000033	muscle	UBERON:0001630	muscle organ
+TISMEDT_000034	muscle_esophageal sphincter	UBERON:0007652	esophageal sphincter
+TISMEDT_000035	pancreas	UBERON:0001264	pancreas
+TISMEDT_000036	pancreas_islets of langerhans	UBERON:0000006	islet of Langerhans
+TISMEDT_000037	rectum	UBERON:0001052	rectum
+TISMEDT_000038	rectum_mucosa	UBERON:0000344	mucosa
+TISMEDT_000039	salivary gland	UBERON:0001044	saliva-secreting gland
+TISMEDT_000040	salivary gland_minor	UBERON:0001830	minor salivary gland
+TISMEDT_000041	small intestine	UBERON:0002108	small intestine
+TISMEDT_000042	small intestine_duodenum	UBERON:0002114	duodenum
+TISMEDT_000043	small intestine_ileum	UBERON:0002116	ileum
+TISMEDT_000044	small intestine_jejunum	UBERON:0002115	jejunum
+TISMEDT_000045	stomach	UBERON:0000945	stomach
+TISMEDT_000046	stomach_gastric mucosa	UBERON:0001199	mucosa of stomach
+TISMEDT_000047	tongue	UBERON:0001723	tongue
+TISMEDT_000048	Endocrine System	UBERON:0000949	endocrine system
+TISMEDT_000049	adrenal gland	UBERON:0002369	adrenal gland
+TISMEDT_000050	adrenal gland_cortex	UBERON:0001851	cortex
+TISMEDT_000051	brain	UBERON:0000955	brain
+TISMEDT_000052	brain_area postrema	UBERON:0002162	area postrema
+TISMEDT_000053	brain_pituitary gland	UBERON:0000007	pituitary gland
+TISMEDT_000054	ovary	UBERON:0000992	female gonad
+TISMEDT_000055	testis	UBERON:0000473	testis
+TISMEDT_000056	testis_interstitial		
+TISMEDT_000057	thyroid gland	UBERON:0002046	thyroid gland
+TISMEDT_000058	Hemic and Immune Systems	UBERON:0002193	hemolymphoid system
+TISMEDT_000059	blood	UBERON:0000178	blood
+TISMEDT_000060	blood_cord blood	UBERON:0012168	umbilical cord blood
+TISMEDT_000061	bone marrow	UBERON:0002371	bone marrow
+TISMEDT_000062	bone marrow_red		
+TISMEDT_000063	bone marrow_yellow		
+TISMEDT_000064	lymph nodes	UBERON:0000029	lymph node
+TISMEDT_000065	palatine tonsil	UBERON:0002373	palatine tonsil
+TISMEDT_000066	spleen	UBERON:0002106	spleen
+TISMEDT_000067	thymus gland	UBERON:0002370	thymus
+TISMEDT_000068	Integumentary System	UBERON:0002416	integumental system
+TISMEDT_000069	skin	UBERON:0000014	zone of skin
+TISMEDT_000070	skin_lower leg	UBERON:0004264	lower leg skin
+TISMEDT_000071	skin_suprapubic		
+TISMEDT_000072	Musculoskeletal System	UBERON:0002204	musculoskeletal system
+TISMEDT_000073	bone	UBERON:0002481	bone tissue
+TISMEDT_000074	cartilage	UBERON:0002418	cartilage tissue
+TISMEDT_000075	cartilage_articular cartilage	UBERON:0010996	articular cartilage of joint
+TISMEDT_000076	muscle_colon smooth muscle		
+TISMEDT_000077	muscle_gastrocnemius medialis	UBERON:0011907	gastrocnemius medialis
+TISMEDT_000078	muscle_heart muscle	UBERON:0001133	cardiac muscle tissue
+TISMEDT_000079	muscle_psoas muscle	UBERON:0008450	psoas muscle
+TISMEDT_000080	muscle_rectum smooth muscle	UBERON:0018112	rectum smooth muscle tissue
+TISMEDT_000081	muscle_skeletal muscle	UBERON:0001134	skeletal muscle tissue
+TISMEDT_000082	muscle_smooth muscle	UBERON:0001135	smooth muscle tissue
+TISMEDT_000083	muscle_stomach smooth muscle	UBERON:0004222	stomach smooth muscle
+TISMEDT_000084	Nervous System	UBERON:0001016	nervous system
+TISMEDT_000085	brain_amygdala	UBERON:0001876	amygdala
+TISMEDT_000086	brain_angular gyrus	UBERON:0002686	angular gyrus
+TISMEDT_000087	brain_anterior caudate nucleus	UBERON:0002626	head of caudate nucleus
+TISMEDT_000088	brain_anterior funiculus	UBERON:0002180	ventral funiculus of spinal cord
+TISMEDT_000089	brain_anterior thalamic nucleus	UBERON:0002788	anterior nuclear group
+TISMEDT_000090	brain_arcuate nucleus of hypothalamus	UBERON:0001932	arcuate nucleus of hypothalamus
+TISMEDT_000091	brain_area parastriata	UBERON:0006473	Brodmann (1909) area 18
+TISMEDT_000092	brain_area striata	UBERON:8440010	Brodmann (1909) area 17 (striate cortex)
+TISMEDT_000093	brain_auditory cortex	UBERON:0001393	auditory cortex
+TISMEDT_000094	brain_basal nucleus of meynert	UBERON:0010010	basal nucleus of telencephalon
+TISMEDT_000095	brain_basolateral nuclear complex	UBERON:0006107	basolateral amygdaloid nuclear complex
+TISMEDT_000096	brain_caudate nucleus	UBERON:0001873	caudate nucleus
+TISMEDT_000097	brain_central amygdaloid nucleus	UBERON:0002883	central amygdaloid nucleus
+TISMEDT_000098	brain_centromedial thalamic nucleus	UBERON:0002972	centromedian nucleus of thalamus
+TISMEDT_000099	brain_cerebellar cortex	UBERON:0002129	cerebellar cortex
+TISMEDT_000100	brain_cerebellar nuclei	UBERON:0002130	cerebellar nuclear complex
+TISMEDT_000101	brain_cerebellum	UBERON:0002037	cerebellum
+TISMEDT_000102	brain_cerebellum peduncles	UBERON:0007416	cerebellar peduncle
+TISMEDT_000103	brain_cerebral cortex	UBERON:0000956	cerebral cortex
+TISMEDT_000104	brain_cervical cord	UBERON:0002726	cervical spinal cord
+TISMEDT_000105	brain_choroid plexus	UBERON:0001886	choroid plexus
+TISMEDT_000106	brain_claustrum	UBERON:0002023	claustrum of brain
+TISMEDT_000107	brain_cochlear nucleus	UBERON:0001720	cochlear nucleus
+TISMEDT_000108	brain_corpus callosum	UBERON:0002336	corpus callosum
+TISMEDT_000109	brain_corpus striatum	UBERON:0000369	corpus striatum
+TISMEDT_000110	brain_corticomedial nuclear complex	UBERON:0006108	corticomedial nuclear complex
+TISMEDT_000111	brain_cuneate nuclei	UBERON:0002045	cuneate nucleus
+TISMEDT_000112	brain_dentate gyrus	UBERON:0001885	dentate gyrus of hippocampal formation
+TISMEDT_000113	brain_dorsal cochlear nucleus	UBERON:0002829	dorsal cochlear nucleus
+TISMEDT_000114	brain_dorsal funiculus	UBERON:0002258	dorsal funiculus of spinal cord
+TISMEDT_000115	brain_dorsal medullary reticular nucleus	UBERON:0002559	medullary reticular formation
+TISMEDT_000116	brain_dorsal motor vagal complex	UBERON:0002870	dorsal motor nucleus of vagus nerve
+TISMEDT_000117	brain_dorsal raphe nucleus	UBERON:0002043	dorsal raphe nucleus
+TISMEDT_000118	brain_dorsal tegmental nucleus	UBERON:0002143	dorsal tegmental nucleus
+TISMEDT_000119	brain_dorsolateral prefrontal cortex	UBERON:0009834	dorsolateral prefrontal cortex
+TISMEDT_000120	brain_dorsolateral tegmental area		
+TISMEDT_000121	brain_dorsomedial prefrontal cortex		
+TISMEDT_000122	brain_entorhinal cortex	UBERON:0002728	entorhinal cortex
+TISMEDT_000123	brain_entorhinal gyrus	UBERON:0002728	entorhinal cortex
+TISMEDT_000124	brain_facial nucleus	UBERON:0000127	facial nucleus
+TISMEDT_000125	brain_flocculonodular lobe	UBERON:0003012	flocculonodular lobe
+TISMEDT_000126	brain_frontal lobe	UBERON:0016525	frontal lobe
+TISMEDT_000127	brain_frontal operculum	UBERON:0002947	frontal operculum
+TISMEDT_000128	brain_frontal pole cortex	UBERON:0002795	frontal pole
+TISMEDT_000129	brain_frontomarginal cortex		
+TISMEDT_000130	brain_frontopolar cortex	UBERON:0002795	frontal pole
+TISMEDT_000131	brain_geniculate bodies	UBERON:0001927	medial geniculate body
+TISMEDT_000132	brain_germinal matrix		
+TISMEDT_000133	brain_gigantocellular reticular nuclei	UBERON:0002155	gigantocellular nucleus
+TISMEDT_000134	brain_globus pallidus	UBERON:0001875	globus pallidus
+TISMEDT_000135	brain_grey matter	UBERON:0002020	gray matter
+TISMEDT_000136	brain_gyrus cinguli	UBERON:0002967	cingulate gyrus
+TISMEDT_000137	brain_habenula	UBERON:0001904	habenula
+TISMEDT_000138	brain_hippocampus	UBERON:0002421	hippocampal formation
+TISMEDT_000139	brain_hypothalamus	UBERON:0001898	hypothalamus
+TISMEDT_000140	brain_inferior colliculus	UBERON:0001946	inferior colliculus
+TISMEDT_000141	brain_inferior olive	UBERON:0002127	inferior olivary complex
+TISMEDT_000142	brain_insular cortex	UBERON:0034891	insular cortex
+TISMEDT_000143	brain_intraparietal deep sulcus		
+TISMEDT_000144	brain_Kolliker Fuse nucleus	UBERON:0002869	diffuse reticular nucleus
+TISMEDT_000145	brain_lateral funiculus	UBERON:0002179	lateral funiculus of spinal cord
+TISMEDT_000146	brain_lateral lemniscal nuclei		
+TISMEDT_000147	brain_lateral medullary reticular nucleus	UBERON:0002559	medullary reticular formation
+TISMEDT_000148	brain_lateral thalamic nuclei		
+TISMEDT_000149	brain_limbic lobe	UBERON:0002600	limbic lobe
+TISMEDT_000150	brain_locus coeruleus	UBERON:0002148	locus ceruleus
+TISMEDT_000151	brain_mammillary bodies	UBERON:0002206	mammillary body
+TISMEDT_000152	brain_medial olivary nucleus	UBERON:0002128	superior olivary complex
+TISMEDT_000153	brain_medial periolivary nuclei	UBERON:0002128	superior olivary complex
+TISMEDT_000154	brain_median raphe nucleus	UBERON:0003004	median raphe nucleus
+TISMEDT_000155	brain_mediodorsal thalamic nucleus	UBERON:0002739	medial dorsal nucleus of thalamus
+TISMEDT_000156	brain_medulla oblongata	UBERON:0001896	medulla oblongata
+TISMEDT_000157	brain_mesencephalon	UBERON:0001891	midbrain
+TISMEDT_000158	brain_midbrain reticular formation	UBERON:0002639	midbrain reticular formation
+TISMEDT_000159	brain_middle cingulate cortex		
+TISMEDT_000160	brain_middle frontal gyrus	UBERON:0002702	middle frontal gyrus
+TISMEDT_000161	brain_midline thalamic nuclei		
+TISMEDT_000162	brain_motor cortex	UBERON:0001384	primary motor cortex
+TISMEDT_000163	brain_motor hypoglossal nucleus	UBERON:0002871	hypoglossal nucleus
+TISMEDT_000164	brain_nuclei of the trapezoid body	UBERON:0007633	nucleus of trapezoid body
+TISMEDT_000165	brain_nucleus accumbens	UBERON:0001882	nucleus accumbens
+TISMEDT_000166	brain_nucleus cuneatus	UBERON:0002045	cuneate nucleus
+TISMEDT_000167	brain_nucleus gracilis	UBERON:0002161	gracile nucleus
+TISMEDT_000168	brain_nucleus raphe magnus	UBERON:0002156	nucleus raphe magnus
+TISMEDT_000169	brain_nucleus raphe obscurus	UBERON:0002684	nucleus raphe obscurus
+TISMEDT_000170	brain_nucleus raphe pallidus	UBERON:0002157	nucleus raphe pallidus
+TISMEDT_000171	brain_nucleus rhomboideus		
+TISMEDT_000172	brain_occipital lobe	UBERON:0002021	occipital lobe
+TISMEDT_000173	brain_olfactory area		
+TISMEDT_000174	brain_olfactory bulb	UBERON:0002264	olfactory bulb
+TISMEDT_000175	brain_olfactory tubercle	UBERON:0001883	olfactory tubercle
+TISMEDT_000176	brain_parabrachial nucleus	UBERON:0007634	parabrachial nucleus
+TISMEDT_000177	brain_paracentral lobule	UBERON:0035933	paracentral lobule
+TISMEDT_000178	brain_parahippocampal cortex	UBERON:0002973	parahippocampal gyrus
+TISMEDT_000179	brain_paramedian reticular nucleus	UBERON:0007764	paramedian reticular nucleus
+TISMEDT_000180	brain_parathyroid glands	UBERON:0001132	parathyroid gland
+TISMEDT_000181	brain_paraventricular hypothalamic nucleus	UBERON:0001930	paraventricular nucleus of hypothalamus
+TISMEDT_000182	brain_parietal lobe	UBERON:0001872	parietal lobe
+TISMEDT_000183	brain_parietal operculum	UBERON:0002911	parietal operculum
+TISMEDT_000184	brain_parieto insular vestibular cortex		
+TISMEDT_000185	brain_parieto occipital transitional area		
+TISMEDT_000186	brain_parieto temporal junction		
+TISMEDT_000187	brain_parvicellular reticular nuclei	UBERON:0016633	parvocellular reticular nucleus
+TISMEDT_000188	brain_pedunculopontine tegmental nucleus	UBERON:0002142	pedunculopontine tegmental nucleus
+TISMEDT_000189	brain_periaquaductal grey	UBERON:0003040	central gray substance of midbrain
+TISMEDT_000190	brain_perirhinal gyrus	UBERON:0006083	perirhinal cortex
+TISMEDT_000191	brain_peritrigeminal nucleus	UBERON:0002879	peritrigeminal nucleus
+TISMEDT_000192	brain_piriform cortex	UBERON:0004725	piriform cortex
+TISMEDT_000193	brain_pons	UBERON:0000988	pons
+TISMEDT_000194	brain_pontine nuclei	UBERON:0002151	pontine nuclear group
+TISMEDT_000195	brain_pontine tegmentum	UBERON:0003023	pontine tegmentum
+TISMEDT_000196	brain_posterior insular cortex		
+TISMEDT_000197	brain_posterior thalamic nucleus	UBERON:0002981	pulvinar nucleus
+TISMEDT_000198	brain_posteroventral cochlear nucleus	UBERON:0002831	posteroventral cochlear nucleus
+TISMEDT_000199	brain_prefrontal cortex	UBERON:0000451	prefrontal cortex
+TISMEDT_000200	brain_preoptic area	UBERON:0001928	preoptic area
+TISMEDT_000201	brain_prepositus hypoglossal nucleus	UBERON:0002871	hypoglossal nucleus
+TISMEDT_000202	brain_pretectal region	UBERON:0001944	pretectal region
+TISMEDT_000203	brain_pulvinar	UBERON:0002981	pulvinar nucleus
+TISMEDT_000204	brain_putamen	UBERON:0001874	putamen
+TISMEDT_000205	brain_red nucleus	UBERON:0001947	red nucleus
+TISMEDT_000206	brain_reticulotegmental nucleus	UBERON:0002147	reticulotegmental nucleus
+TISMEDT_000207	brain_seminal vesicles	UBERON:0000998	seminal vesicle
+TISMEDT_000208	brain_sensory cortex	UBERON:0008930	somatosensory cortex
+TISMEDT_000209	brain_septal nuclei	UBERON:0002663	septal nuclear complex
+TISMEDT_000210	brain_solitary nucleus	UBERON:0009050	nucleus of solitary tract
+TISMEDT_000211	brain_somatomor cortex	UBERON:0001384	primary motor cortex
+TISMEDT_000212	brain_somatosensory cortex	UBERON:0008930	somatosensory cortex
+TISMEDT_000213	brain_spinal cord	UBERON:0002240	spinal cord
+TISMEDT_000214	brain_spinal trigeminal nucleus	UBERON:0002866	caudal part of spinal trigeminal nucleus
+TISMEDT_000215	brain_spinal vestibular nucleus	UBERON:0002673	vestibular nuclear complex
+TISMEDT_000216	brain_subcoeruleus area		
+TISMEDT_000217	brain_subgenual area		
+TISMEDT_000218	brain_substantia nigra	UBERON:0002038	substantia nigra
+TISMEDT_000219	brain_subthalamic nucleus	UBERON:0001906	subthalamic nucleus
+TISMEDT_000220	brain_superior colliculus	UBERON:0001945	superior colliculus
+TISMEDT_000221	brain_superior olivary complex	UBERON:0002128	superior olivary complex
+TISMEDT_000222	brain_superior vestibular nucleus	UBERON:0007227	superior vestibular nucleus
+TISMEDT_000223	brain_suprachiasmatic nucleu	UBERON:0002034	suprachiasmatic nucleus
+TISMEDT_000224	brain_supraoptic nucleus	UBERON:0001929	supraoptic nucleus
+TISMEDT_000225	brain_temporal lobe	UBERON:0001871	temporal lobe
+TISMEDT_000226	brain_temporal pole	UBERON:0002576	temporal pole
+TISMEDT_000227	brain_temporal white matter		
+TISMEDT_000228	brain_temporo insular cortex		
+TISMEDT_000229	brain_temporo occipital transitional zone		
+TISMEDT_000230	brain_thalamus	UBERON:0001897	dorsal plus ventral thalamus
+TISMEDT_000231	brain_trigeminal caudal nucleus	UBERON:0002866	caudal part of spinal trigeminal nucleus
+TISMEDT_000232	brain_trigeminal motor nucleus	UBERON:0002633	motor nucleus of trigeminal nerve
+TISMEDT_000233	brain_ventral medullary reticular nucleus	UBERON:0002559	medullary reticular formation
+TISMEDT_000234	brain_ventral periolivary nuclei	UBERON:0002128	superior olivary complex
+TISMEDT_000235	brain_ventral tegmental area	UBERON:0002691	ventral tegmental area
+TISMEDT_000236	brain_ventral thalamic nuclei		
+TISMEDT_000237	brain_ventrolateral medulla		
+TISMEDT_000238	brain_ventrolateral prefrontal cortex		
+TISMEDT_000239	brain_ventrolateral tegmental area		
+TISMEDT_000240	brain_ventromedial nucleus	UBERON:0001935	ventromedial nucleus of hypothalamus
+TISMEDT_000241	brain_vermis	UBERON:0004720	cerebellar vermis
+TISMEDT_000242	brain_vestibular nuclei	UBERON:0002673	vestibular nuclear complex
+TISMEDT_000243	brain_visual cortex	UBERON:0000411	visual cortex
+TISMEDT_000244	brain_white matter	UBERON:0002316	white matter
+TISMEDT_000245	brain_zona incerta	UBERON:0001907	zona incerta
+TISMEDT_000246	ganglia	UBERON:0000045	ganglion
+TISMEDT_000247	ganglia_parasympathetic ganglia	UBERON:0001808	parasympathetic ganglion
+TISMEDT_000248	ganglia_spinal ganglia	UBERON:0000044	dorsal root ganglion
+TISMEDT_000249	ganglia_superior cervical ganglion	UBERON:0001989	superior cervical ganglion
+TISMEDT_000250	ganglia_trigeminal ganglion	UBERON:0001675	trigeminal ganglion
+TISMEDT_000251	neuroglia		
+TISMEDT_000252	neurons		
+TISMEDT_000253	spinal nerves	UBERON:0001780	spinal nerve
+TISMEDT_000254	spinal nerves_sciatic nerve	UBERON:0001322	sciatic nerve
+TISMEDT_000255	spinal nerves_tibial nerve	UBERON:0001323	tibial nerve
+TISMEDT_000256	Other Systems		
+TISMEDT_000257	adipose tissue	UBERON:0001013	adipose tissue
+TISMEDT_000258	adipose tissue_abdominal	UBERON:0000916	abdomen
+TISMEDT_000259	adipose tissue_omental fat pad	UBERON:0010414	omental fat pad
+TISMEDT_000260	adipose tissue_subcutaneous	UBERON:0002190	subcutaneous adipose tissue
+TISMEDT_000261	adipose tissue_visceral	UBERON:0014454	visceral abdominal adipose tissue
+TISMEDT_000262	breast	UBERON:0000310	breast
+TISMEDT_000263	breast_mammary gland	UBERON:0001911	mammary gland
+TISMEDT_000264	placenta	UBERON:0001987	placenta
+TISMEDT_000265	retina	UBERON:0000966	retina
+TISMEDT_000266	saliva	UBERON:0001836	saliva
+TISMEDT_000267	Respiratory System	UBERON:0001004	respiratory system
+TISMEDT_000268	lung	UBERON:0002048	lung
+TISMEDT_000269	lung_upper lobe of left lung	UBERON:0008952	upper lobe of left lung
+TISMEDT_000270	nasopharynx	UBERON:0001728	nasopharynx
+TISMEDT_000271	nose	UBERON:0000004	nose
+TISMEDT_000272	nose_nasal mucosa	UBERON:0001826	nasal cavity mucosa
+TISMEDT_000273	trachea	UBERON:0003126	trachea
+TISMEDT_000274	Stomatognathic System		
+TISMEDT_000275	Urogenital System	UBERON:0004122	genitourinary system
+TISMEDT_000276	cervix uteri	UBERON:0000002	uterine cervix
+TISMEDT_000277	cervix uteri_ectocervix	UBERON:0012249	ectocervix
+TISMEDT_000278	cervix uteri_endocervix	UBERON:0000458	endocervix
+TISMEDT_000279	endometrium	UBERON:0001295	endometrium
+TISMEDT_000280	epididymis	UBERON:0001301	epididymis
+TISMEDT_000281	fallopian tube	UBERON:0003889	fallopian tube
+TISMEDT_000282	kidney	UBERON:0002113	kidney
+TISMEDT_000283	kidney_cortex	UBERON:0001851	cortex
+TISMEDT_000284	kidney_medulla	UBERON:0000362	renal medulla
+TISMEDT_000285	prostate	UBERON:0002367	prostate gland
+TISMEDT_000286	spermatozoa		
+TISMEDT_000287	testis_seminiferous tubule	UBERON:0001343	seminiferous tubule of testis
+TISMEDT_000288	urinary bladder	UBERON:0001255	urinary bladder
+TISMEDT_000289	uterus	UBERON:0000995	uterus
+TISMEDT_000290	vagina	UBERON:0000996	vagina

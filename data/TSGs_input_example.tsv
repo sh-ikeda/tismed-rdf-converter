@@ -1,0 +1,4 @@
+Specific system tissue	Ensembl gene id	Gene symbol	Mean SPMadjust value	Tscore	Support dataset count	Tissue-specific protein	Tissue class
+liver	ENSG00000121410	A1BG	0.93	1	7	no	tissue
+Digestive System	ENSG00000121410	A1BG	0.96	1	7	no	system
+muscle_skeletal muscle	ENSG00000174429	ABRA	0.87	0.7	4	no	sub-tissue

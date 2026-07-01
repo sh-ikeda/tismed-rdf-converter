@@ -1,0 +1,290 @@
+TISMEDT_000001	Cardiovascular System
+TISMEDT_000002	arteries
+TISMEDT_000003	arteries_abdominal aorta
+TISMEDT_000004	arteries_aorta
+TISMEDT_000005	arteries_ascending aorta
+TISMEDT_000006	arteries_coronary vessels
+TISMEDT_000007	arteries_splenic artery
+TISMEDT_000008	arteries_thoracic aorta
+TISMEDT_000009	arteries_tibial arteries
+TISMEDT_000010	heart
+TISMEDT_000011	heart_atrial appendage
+TISMEDT_000012	heart_atrioventricular node
+TISMEDT_000013	heart_left ventricle
+TISMEDT_000014	heart_pericardium
+TISMEDT_000015	heart_right atrium
+TISMEDT_000016	heart_right atrium auricular region
+TISMEDT_000017	heart_right ventricle
+TISMEDT_000018	Digestive System
+TISMEDT_000019	cecum
+TISMEDT_000020	cecum_appendix
+TISMEDT_000021	colon
+TISMEDT_000022	colon_sigmoid colon
+TISMEDT_000023	colon_transverse colon
+TISMEDT_000024	esophagus
+TISMEDT_000025	esophagus_gastroesophageal junction
+TISMEDT_000026	esophagus_mucosa
+TISMEDT_000027	esophagus_muscularis
+TISMEDT_000028	esophagus_muscularis mucosa
+TISMEDT_000029	esophagus_squamous epithelium
+TISMEDT_000030	gallbladder
+TISMEDT_000031	liver
+TISMEDT_000032	liver_right lobe
+TISMEDT_000033	muscle
+TISMEDT_000034	muscle_esophageal sphincter
+TISMEDT_000035	pancreas
+TISMEDT_000036	pancreas_islets of langerhans
+TISMEDT_000037	rectum
+TISMEDT_000038	rectum_mucosa
+TISMEDT_000039	salivary gland
+TISMEDT_000040	salivary gland_minor
+TISMEDT_000041	small intestine
+TISMEDT_000042	small intestine_duodenum
+TISMEDT_000043	small intestine_ileum
+TISMEDT_000044	small intestine_jejunum
+TISMEDT_000045	stomach
+TISMEDT_000046	stomach_gastric mucosa
+TISMEDT_000047	tongue
+TISMEDT_000048	Endocrine System
+TISMEDT_000049	adrenal gland
+TISMEDT_000050	adrenal gland_cortex
+TISMEDT_000051	brain
+TISMEDT_000052	brain_area postrema
+TISMEDT_000053	brain_pituitary gland
+TISMEDT_000054	ovary
+TISMEDT_000055	testis
+TISMEDT_000056	testis_interstitial
+TISMEDT_000057	thyroid gland
+TISMEDT_000058	Hemic and Immune Systems
+TISMEDT_000059	blood
+TISMEDT_000060	blood_cord blood
+TISMEDT_000061	bone marrow
+TISMEDT_000062	bone marrow_red
+TISMEDT_000063	bone marrow_yellow
+TISMEDT_000064	lymph nodes
+TISMEDT_000065	palatine tonsil
+TISMEDT_000066	spleen
+TISMEDT_000067	thymus gland
+TISMEDT_000068	Integumentary System
+TISMEDT_000069	skin
+TISMEDT_000070	skin_lower leg
+TISMEDT_000071	skin_suprapubic
+TISMEDT_000072	Musculoskeletal System
+TISMEDT_000073	bone
+TISMEDT_000074	cartilage
+TISMEDT_000075	cartilage_articular cartilage
+TISMEDT_000076	muscle_colon smooth muscle
+TISMEDT_000077	muscle_gastrocnemius medialis
+TISMEDT_000078	muscle_heart muscle
+TISMEDT_000079	muscle_psoas muscle
+TISMEDT_000080	muscle_rectum smooth muscle
+TISMEDT_000081	muscle_skeletal muscle
+TISMEDT_000082	muscle_smooth muscle
+TISMEDT_000083	muscle_stomach smooth muscle
+TISMEDT_000084	Nervous System
+TISMEDT_000085	brain_amygdala
+TISMEDT_000086	brain_angular gyrus
+TISMEDT_000087	brain_anterior caudate nucleus
+TISMEDT_000088	brain_anterior funiculus 
+TISMEDT_000089	brain_anterior thalamic nucleus
+TISMEDT_000090	brain_arcuate nucleus of hypothalamus
+TISMEDT_000091	brain_area parastriata
+TISMEDT_000092	brain_area striata
+TISMEDT_000093	brain_auditory cortex
+TISMEDT_000094	brain_basal nucleus of meynert
+TISMEDT_000095	brain_basolateral nuclear complex
+TISMEDT_000096	brain_caudate nucleus
+TISMEDT_000097	brain_central amygdaloid nucleus
+TISMEDT_000098	brain_centromedial thalamic nucleus
+TISMEDT_000099	brain_cerebellar cortex
+TISMEDT_000100	brain_cerebellar nuclei
+TISMEDT_000101	brain_cerebellum
+TISMEDT_000102	brain_cerebellum peduncles
+TISMEDT_000103	brain_cerebral cortex
+TISMEDT_000104	brain_cervical cord
+TISMEDT_000105	brain_choroid plexus
+TISMEDT_000106	brain_claustrum
+TISMEDT_000107	brain_cochlear nucleus
+TISMEDT_000108	brain_corpus callosum
+TISMEDT_000109	brain_corpus striatum
+TISMEDT_000110	brain_corticomedial nuclear complex
+TISMEDT_000111	brain_cuneate nuclei
+TISMEDT_000112	brain_dentate gyrus
+TISMEDT_000113	brain_dorsal cochlear nucleus
+TISMEDT_000114	brain_dorsal funiculus 
+TISMEDT_000115	brain_dorsal medullary reticular nucleus
+TISMEDT_000116	brain_dorsal motor vagal complex
+TISMEDT_000117	brain_dorsal raphe nucleus
+TISMEDT_000118	brain_dorsal tegmental nucleus
+TISMEDT_000119	brain_dorsolateral prefrontal cortex
+TISMEDT_000120	brain_dorsolateral tegmental area
+TISMEDT_000121	brain_dorsomedial prefrontal cortex
+TISMEDT_000122	brain_entorhinal cortex
+TISMEDT_000123	brain_entorhinal gyrus
+TISMEDT_000124	brain_facial nucleus
+TISMEDT_000125	brain_flocculonodular lobe
+TISMEDT_000126	brain_frontal lobe
+TISMEDT_000127	brain_frontal operculum
+TISMEDT_000128	brain_frontal pole cortex
+TISMEDT_000129	brain_frontomarginal cortex
+TISMEDT_000130	brain_frontopolar cortex
+TISMEDT_000131	brain_geniculate bodies
+TISMEDT_000132	brain_germinal matrix
+TISMEDT_000133	brain_gigantocellular reticular nuclei
+TISMEDT_000134	brain_globus pallidus
+TISMEDT_000135	brain_grey matter
+TISMEDT_000136	brain_gyrus cinguli
+TISMEDT_000137	brain_habenula
+TISMEDT_000138	brain_hippocampus
+TISMEDT_000139	brain_hypothalamus
+TISMEDT_000140	brain_inferior colliculus
+TISMEDT_000141	brain_inferior olive
+TISMEDT_000142	brain_insular cortex
+TISMEDT_000143	brain_intraparietal deep sulcus
+TISMEDT_000144	brain_Kolliker Fuse nucleus
+TISMEDT_000145	brain_lateral funiculus
+TISMEDT_000146	brain_lateral lemniscal nuclei
+TISMEDT_000147	brain_lateral medullary reticular nucleus
+TISMEDT_000148	brain_lateral thalamic nuclei
+TISMEDT_000149	brain_limbic lobe
+TISMEDT_000150	brain_locus coeruleus
+TISMEDT_000151	brain_mammillary bodies
+TISMEDT_000152	brain_medial olivary nucleus
+TISMEDT_000153	brain_medial periolivary nuclei
+TISMEDT_000154	brain_median raphe nucleus
+TISMEDT_000155	brain_mediodorsal thalamic nucleus
+TISMEDT_000156	brain_medulla oblongata
+TISMEDT_000157	brain_mesencephalon
+TISMEDT_000158	brain_midbrain reticular formation
+TISMEDT_000159	brain_middle cingulate cortex
+TISMEDT_000160	brain_middle frontal gyrus
+TISMEDT_000161	brain_midline thalamic nuclei
+TISMEDT_000162	brain_motor cortex
+TISMEDT_000163	brain_motor hypoglossal nucleus
+TISMEDT_000164	brain_nuclei of the trapezoid body
+TISMEDT_000165	brain_nucleus accumbens
+TISMEDT_000166	brain_nucleus cuneatus
+TISMEDT_000167	brain_nucleus gracilis
+TISMEDT_000168	brain_nucleus raphe magnus
+TISMEDT_000169	brain_nucleus raphe obscurus
+TISMEDT_000170	brain_nucleus raphe pallidus
+TISMEDT_000171	brain_nucleus rhomboideus
+TISMEDT_000172	brain_occipital lobe
+TISMEDT_000173	brain_olfactory area
+TISMEDT_000174	brain_olfactory bulb
+TISMEDT_000175	brain_olfactory tubercle
+TISMEDT_000176	brain_parabrachial nucleus
+TISMEDT_000177	brain_paracentral lobule
+TISMEDT_000178	brain_parahippocampal cortex
+TISMEDT_000179	brain_paramedian reticular nucleus
+TISMEDT_000180	brain_parathyroid glands
+TISMEDT_000181	brain_paraventricular hypothalamic nucleus
+TISMEDT_000182	brain_parietal lobe
+TISMEDT_000183	brain_parietal operculum
+TISMEDT_000184	brain_parieto insular vestibular cortex
+TISMEDT_000185	brain_parieto occipital transitional area
+TISMEDT_000186	brain_parieto temporal junction 
+TISMEDT_000187	brain_parvicellular reticular nuclei
+TISMEDT_000188	brain_pedunculopontine tegmental nucleus
+TISMEDT_000189	brain_periaquaductal grey
+TISMEDT_000190	brain_perirhinal gyrus
+TISMEDT_000191	brain_peritrigeminal nucleus
+TISMEDT_000192	brain_piriform cortex
+TISMEDT_000193	brain_pons
+TISMEDT_000194	brain_pontine nuclei
+TISMEDT_000195	brain_pontine tegmentum
+TISMEDT_000196	brain_posterior insular cortex
+TISMEDT_000197	brain_posterior thalamic nucleus
+TISMEDT_000198	brain_posteroventral cochlear nucleus
+TISMEDT_000199	brain_prefrontal cortex
+TISMEDT_000200	brain_preoptic area
+TISMEDT_000201	brain_prepositus hypoglossal nucleus
+TISMEDT_000202	brain_pretectal region
+TISMEDT_000203	brain_pulvinar
+TISMEDT_000204	brain_putamen
+TISMEDT_000205	brain_red nucleus
+TISMEDT_000206	brain_reticulotegmental nucleus
+TISMEDT_000207	brain_seminal vesicles
+TISMEDT_000208	brain_sensory cortex
+TISMEDT_000209	brain_septal nuclei
+TISMEDT_000210	brain_solitary nucleus
+TISMEDT_000211	brain_somatomor cortex 
+TISMEDT_000212	brain_somatosensory cortex
+TISMEDT_000213	brain_spinal cord
+TISMEDT_000214	brain_spinal trigeminal nucleus 
+TISMEDT_000215	brain_spinal vestibular nucleus
+TISMEDT_000216	brain_subcoeruleus area
+TISMEDT_000217	brain_subgenual area
+TISMEDT_000218	brain_substantia nigra
+TISMEDT_000219	brain_subthalamic nucleus
+TISMEDT_000220	brain_superior colliculus
+TISMEDT_000221	brain_superior olivary complex
+TISMEDT_000222	brain_superior vestibular nucleus
+TISMEDT_000223	brain_suprachiasmatic nucleu
+TISMEDT_000224	brain_supraoptic nucleus
+TISMEDT_000225	brain_temporal lobe
+TISMEDT_000226	brain_temporal pole
+TISMEDT_000227	brain_temporal white matter
+TISMEDT_000228	brain_temporo insular cortex
+TISMEDT_000229	brain_temporo occipital transitional zone
+TISMEDT_000230	brain_thalamus
+TISMEDT_000231	brain_trigeminal caudal nucleus
+TISMEDT_000232	brain_trigeminal motor nucleus
+TISMEDT_000233	brain_ventral medullary reticular nucleus
+TISMEDT_000234	brain_ventral periolivary nuclei
+TISMEDT_000235	brain_ventral tegmental area
+TISMEDT_000236	brain_ventral thalamic nuclei
+TISMEDT_000237	brain_ventrolateral medulla
+TISMEDT_000238	brain_ventrolateral prefrontal cortex
+TISMEDT_000239	brain_ventrolateral tegmental area
+TISMEDT_000240	brain_ventromedial nucleus
+TISMEDT_000241	brain_vermis
+TISMEDT_000242	brain_vestibular nuclei
+TISMEDT_000243	brain_visual cortex
+TISMEDT_000244	brain_white matter
+TISMEDT_000245	brain_zona incerta
+TISMEDT_000246	ganglia
+TISMEDT_000247	ganglia_parasympathetic ganglia
+TISMEDT_000248	ganglia_spinal ganglia
+TISMEDT_000249	ganglia_superior cervical ganglion
+TISMEDT_000250	ganglia_trigeminal ganglion
+TISMEDT_000251	neuroglia
+TISMEDT_000252	neurons
+TISMEDT_000253	spinal nerves
+TISMEDT_000254	spinal nerves_sciatic nerve
+TISMEDT_000255	spinal nerves_tibial nerve
+TISMEDT_000256	Other Systems
+TISMEDT_000257	adipose tissue
+TISMEDT_000258	adipose tissue_abdominal
+TISMEDT_000259	adipose tissue_omental fat pad
+TISMEDT_000260	adipose tissue_subcutaneous
+TISMEDT_000261	adipose tissue_visceral
+TISMEDT_000262	breast
+TISMEDT_000263	breast_mammary gland
+TISMEDT_000264	placenta
+TISMEDT_000265	retina
+TISMEDT_000266	saliva
+TISMEDT_000267	Respiratory System
+TISMEDT_000268	lung
+TISMEDT_000269	lung_upper lobe of left lung
+TISMEDT_000270	nasopharynx
+TISMEDT_000271	nose
+TISMEDT_000272	nose_nasal mucosa
+TISMEDT_000273	trachea
+TISMEDT_000274	Stomatognathic System
+TISMEDT_000275	Urogenital System
+TISMEDT_000276	cervix uteri
+TISMEDT_000277	cervix uteri_ectocervix
+TISMEDT_000278	cervix uteri_endocervix
+TISMEDT_000279	endometrium
+TISMEDT_000280	epididymis
+TISMEDT_000281	fallopian tube
+TISMEDT_000282	kidney
+TISMEDT_000283	kidney_cortex
+TISMEDT_000284	kidney_medulla
+TISMEDT_000285	prostate
+TISMEDT_000286	spermatozoa
+TISMEDT_000287	testis_seminiferous tubule
+TISMEDT_000288	urinary bladder
+TISMEDT_000289	uterus
+TISMEDT_000290	vagina

@@ -1,0 +1,1702 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+tismedo:TISMEDT_000001
+    a owl:Class ;
+    rdfs:label "Cardiovascular System" ;
+    skos:closeMatch obo:UBERON_0004535 .
+
+tismedo:TISMEDT_000002
+    a owl:Class ;
+    rdfs:label "arteries" ;
+    rdfs:subClassOf tismedo:TISMEDT_000001 ;
+    skos:closeMatch obo:UBERON_0001637 .
+
+tismedo:TISMEDT_000003
+    a owl:Class ;
+    rdfs:label "arteries_abdominal aorta" ;
+    rdfs:subClassOf tismedo:TISMEDT_000002 ;
+    skos:closeMatch obo:UBERON_0001516 .
+
+tismedo:TISMEDT_000004
+    a owl:Class ;
+    rdfs:label "arteries_aorta" ;
+    rdfs:subClassOf tismedo:TISMEDT_000002 ;
+    skos:closeMatch obo:UBERON_0000947 .
+
+tismedo:TISMEDT_000005
+    a owl:Class ;
+    rdfs:label "arteries_ascending aorta" ;
+    rdfs:subClassOf tismedo:TISMEDT_000002 ;
+    skos:closeMatch obo:UBERON_0001496 .
+
+tismedo:TISMEDT_000006
+    a owl:Class ;
+    rdfs:label "arteries_coronary vessels" ;
+    rdfs:subClassOf tismedo:TISMEDT_000002 ;
+    skos:closeMatch obo:UBERON_0005985 .
+
+tismedo:TISMEDT_000007
+    a owl:Class ;
+    rdfs:label "arteries_splenic artery" ;
+    rdfs:subClassOf tismedo:TISMEDT_000002 ;
+    skos:closeMatch obo:UBERON_0001194 .
+
+tismedo:TISMEDT_000008
+    a owl:Class ;
+    rdfs:label "arteries_thoracic aorta" ;
+    rdfs:subClassOf tismedo:TISMEDT_000002 ;
+    skos:closeMatch obo:UBERON_0001515 .
+
+tismedo:TISMEDT_000009
+    a owl:Class ;
+    rdfs:label "arteries_tibial arteries" ;
+    rdfs:subClassOf tismedo:TISMEDT_000002 ;
+    skos:closeMatch obo:UBERON_0007610 .
+
+tismedo:TISMEDT_000010
+    a owl:Class ;
+    rdfs:label "heart" ;
+    rdfs:subClassOf tismedo:TISMEDT_000001 ;
+    skos:closeMatch obo:UBERON_0000948 .
+
+tismedo:TISMEDT_000011
+    a owl:Class ;
+    rdfs:label "heart_atrial appendage" ;
+    rdfs:subClassOf tismedo:TISMEDT_000010 ;
+    skos:closeMatch obo:UBERON_0006618 .
+
+tismedo:TISMEDT_000012
+    a owl:Class ;
+    rdfs:label "heart_atrioventricular node" ;
+    rdfs:subClassOf tismedo:TISMEDT_000010 ;
+    skos:closeMatch obo:UBERON_0002352 .
+
+tismedo:TISMEDT_000013
+    a owl:Class ;
+    rdfs:label "heart_left ventricle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000010 ;
+    skos:closeMatch obo:UBERON_0002084 .
+
+tismedo:TISMEDT_000014
+    a owl:Class ;
+    rdfs:label "heart_pericardium" ;
+    rdfs:subClassOf tismedo:TISMEDT_000010 ;
+    skos:closeMatch obo:UBERON_0002407 .
+
+tismedo:TISMEDT_000015
+    a owl:Class ;
+    rdfs:label "heart_right atrium" ;
+    rdfs:subClassOf tismedo:TISMEDT_000010 ;
+    skos:closeMatch obo:UBERON_0002078 .
+
+tismedo:TISMEDT_000016
+    a owl:Class ;
+    rdfs:label "heart_right atrium auricular region" ;
+    rdfs:subClassOf tismedo:TISMEDT_000010 ;
+    skos:closeMatch obo:UBERON_0006631 .
+
+tismedo:TISMEDT_000017
+    a owl:Class ;
+    rdfs:label "heart_right ventricle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000010 ;
+    skos:closeMatch obo:UBERON_0002080 .
+
+tismedo:TISMEDT_000018
+    a owl:Class ;
+    rdfs:label "Digestive System" ;
+    skos:closeMatch obo:UBERON_0001007 .
+
+tismedo:TISMEDT_000019
+    a owl:Class ;
+    rdfs:label "cecum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0001153 .
+
+tismedo:TISMEDT_000020
+    a owl:Class ;
+    rdfs:label "cecum_appendix" ;
+    rdfs:subClassOf tismedo:TISMEDT_000019 ;
+    skos:closeMatch obo:UBERON_0001154 .
+
+tismedo:TISMEDT_000021
+    a owl:Class ;
+    rdfs:label "colon" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0001155 .
+
+tismedo:TISMEDT_000022
+    a owl:Class ;
+    rdfs:label "colon_sigmoid colon" ;
+    rdfs:subClassOf tismedo:TISMEDT_000021 ;
+    skos:closeMatch obo:UBERON_0001159 .
+
+tismedo:TISMEDT_000023
+    a owl:Class ;
+    rdfs:label "colon_transverse colon" ;
+    rdfs:subClassOf tismedo:TISMEDT_000021 ;
+    skos:closeMatch obo:UBERON_0001157 .
+
+tismedo:TISMEDT_000024
+    a owl:Class ;
+    rdfs:label "esophagus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0001043 .
+
+tismedo:TISMEDT_000025
+    a owl:Class ;
+    rdfs:label "esophagus_gastroesophageal junction" ;
+    rdfs:subClassOf tismedo:TISMEDT_000024 ;
+    skos:closeMatch obo:UBERON_0007650 .
+
+tismedo:TISMEDT_000026
+    a owl:Class ;
+    rdfs:label "esophagus_mucosa" ;
+    rdfs:subClassOf tismedo:TISMEDT_000024 ;
+    skos:closeMatch obo:UBERON_0000344 .
+
+tismedo:TISMEDT_000027
+    a owl:Class ;
+    rdfs:label "esophagus_muscularis" ;
+    rdfs:subClassOf tismedo:TISMEDT_000024 ;
+    skos:closeMatch obo:UBERON_0006660 .
+
+tismedo:TISMEDT_000028
+    a owl:Class ;
+    rdfs:label "esophagus_muscularis mucosa" ;
+    rdfs:subClassOf tismedo:TISMEDT_000024 ;
+    skos:closeMatch obo:UBERON_0006676 .
+
+tismedo:TISMEDT_000029
+    a owl:Class ;
+    rdfs:label "esophagus_squamous epithelium" ;
+    rdfs:subClassOf tismedo:TISMEDT_000024 ;
+    skos:closeMatch obo:UBERON_0006914 .
+
+tismedo:TISMEDT_000030
+    a owl:Class ;
+    rdfs:label "gallbladder" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0002110 .
+
+tismedo:TISMEDT_000031
+    a owl:Class ;
+    rdfs:label "liver" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0002107 .
+
+tismedo:TISMEDT_000032
+    a owl:Class ;
+    rdfs:label "liver_right lobe" ;
+    rdfs:subClassOf tismedo:TISMEDT_000031 ;
+    skos:closeMatch obo:UBERON_0001114 .
+
+tismedo:TISMEDT_000033
+    a owl:Class ;
+    rdfs:label "muscle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0001630 .
+
+tismedo:TISMEDT_000034
+    a owl:Class ;
+    rdfs:label "muscle_esophageal sphincter" ;
+    rdfs:subClassOf tismedo:TISMEDT_000033 ;
+    skos:closeMatch obo:UBERON_0007652 .
+
+tismedo:TISMEDT_000035
+    a owl:Class ;
+    rdfs:label "pancreas" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0001264 .
+
+tismedo:TISMEDT_000036
+    a owl:Class ;
+    rdfs:label "pancreas_islets of langerhans" ;
+    rdfs:subClassOf tismedo:TISMEDT_000035 ;
+    skos:closeMatch obo:UBERON_0000006 .
+
+tismedo:TISMEDT_000037
+    a owl:Class ;
+    rdfs:label "rectum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0001052 .
+
+tismedo:TISMEDT_000038
+    a owl:Class ;
+    rdfs:label "rectum_mucosa" ;
+    rdfs:subClassOf tismedo:TISMEDT_000037 ;
+    skos:closeMatch obo:UBERON_0000344 .
+
+tismedo:TISMEDT_000039
+    a owl:Class ;
+    rdfs:label "salivary gland" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0001044 .
+
+tismedo:TISMEDT_000040
+    a owl:Class ;
+    rdfs:label "salivary gland_minor" ;
+    rdfs:subClassOf tismedo:TISMEDT_000039 ;
+    skos:closeMatch obo:UBERON_0001830 .
+
+tismedo:TISMEDT_000041
+    a owl:Class ;
+    rdfs:label "small intestine" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0002108 .
+
+tismedo:TISMEDT_000042
+    a owl:Class ;
+    rdfs:label "small intestine_duodenum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000041 ;
+    skos:closeMatch obo:UBERON_0002114 .
+
+tismedo:TISMEDT_000043
+    a owl:Class ;
+    rdfs:label "small intestine_ileum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000041 ;
+    skos:closeMatch obo:UBERON_0002116 .
+
+tismedo:TISMEDT_000044
+    a owl:Class ;
+    rdfs:label "small intestine_jejunum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000041 ;
+    skos:closeMatch obo:UBERON_0002115 .
+
+tismedo:TISMEDT_000045
+    a owl:Class ;
+    rdfs:label "stomach" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0000945 .
+
+tismedo:TISMEDT_000046
+    a owl:Class ;
+    rdfs:label "stomach_gastric mucosa" ;
+    rdfs:subClassOf tismedo:TISMEDT_000045 ;
+    skos:closeMatch obo:UBERON_0001199 .
+
+tismedo:TISMEDT_000047
+    a owl:Class ;
+    rdfs:label "tongue" ;
+    rdfs:subClassOf tismedo:TISMEDT_000018 ;
+    skos:closeMatch obo:UBERON_0001723 .
+
+tismedo:TISMEDT_000048
+    a owl:Class ;
+    rdfs:label "Endocrine System" ;
+    skos:closeMatch obo:UBERON_0000949 .
+
+tismedo:TISMEDT_000049
+    a owl:Class ;
+    rdfs:label "adrenal gland" ;
+    rdfs:subClassOf tismedo:TISMEDT_000048 ;
+    skos:closeMatch obo:UBERON_0002369 .
+
+tismedo:TISMEDT_000050
+    a owl:Class ;
+    rdfs:label "adrenal gland_cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000049 ;
+    skos:closeMatch obo:UBERON_0001851 .
+
+tismedo:TISMEDT_000051
+    a owl:Class ;
+    rdfs:label "brain" ;
+    rdfs:subClassOf tismedo:TISMEDT_000048 ;
+    skos:closeMatch obo:UBERON_0000955 .
+
+tismedo:TISMEDT_000052
+    a owl:Class ;
+    rdfs:label "brain_area postrema" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002162 .
+
+tismedo:TISMEDT_000053
+    a owl:Class ;
+    rdfs:label "brain_pituitary gland" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0000007 .
+
+tismedo:TISMEDT_000054
+    a owl:Class ;
+    rdfs:label "ovary" ;
+    rdfs:subClassOf tismedo:TISMEDT_000048 ;
+    skos:closeMatch obo:UBERON_0000992 .
+
+tismedo:TISMEDT_000055
+    a owl:Class ;
+    rdfs:label "testis" ;
+    rdfs:subClassOf tismedo:TISMEDT_000048 ;
+    skos:closeMatch obo:UBERON_0000473 .
+
+tismedo:TISMEDT_000056
+    a owl:Class ;
+    rdfs:label "testis_interstitial" ;
+    rdfs:subClassOf tismedo:TISMEDT_000055 .
+
+tismedo:TISMEDT_000057
+    a owl:Class ;
+    rdfs:label "thyroid gland" ;
+    rdfs:subClassOf tismedo:TISMEDT_000048 ;
+    skos:closeMatch obo:UBERON_0002046 .
+
+tismedo:TISMEDT_000058
+    a owl:Class ;
+    rdfs:label "Hemic and Immune Systems" ;
+    skos:closeMatch obo:UBERON_0002193 .
+
+tismedo:TISMEDT_000059
+    a owl:Class ;
+    rdfs:label "blood" ;
+    rdfs:subClassOf tismedo:TISMEDT_000058 ;
+    skos:closeMatch obo:UBERON_0000178 .
+
+tismedo:TISMEDT_000060
+    a owl:Class ;
+    rdfs:label "blood_cord blood" ;
+    rdfs:subClassOf tismedo:TISMEDT_000059 ;
+    skos:closeMatch obo:UBERON_0012168 .
+
+tismedo:TISMEDT_000061
+    a owl:Class ;
+    rdfs:label "bone marrow" ;
+    rdfs:subClassOf tismedo:TISMEDT_000058 ;
+    skos:closeMatch obo:UBERON_0002371 .
+
+tismedo:TISMEDT_000062
+    a owl:Class ;
+    rdfs:label "bone marrow_red" ;
+    rdfs:subClassOf tismedo:TISMEDT_000061 .
+
+tismedo:TISMEDT_000063
+    a owl:Class ;
+    rdfs:label "bone marrow_yellow" ;
+    rdfs:subClassOf tismedo:TISMEDT_000061 .
+
+tismedo:TISMEDT_000064
+    a owl:Class ;
+    rdfs:label "lymph nodes" ;
+    rdfs:subClassOf tismedo:TISMEDT_000058 ;
+    skos:closeMatch obo:UBERON_0000029 .
+
+tismedo:TISMEDT_000065
+    a owl:Class ;
+    rdfs:label "palatine tonsil" ;
+    rdfs:subClassOf tismedo:TISMEDT_000058 ;
+    skos:closeMatch obo:UBERON_0002373 .
+
+tismedo:TISMEDT_000066
+    a owl:Class ;
+    rdfs:label "spleen" ;
+    rdfs:subClassOf tismedo:TISMEDT_000058 ;
+    skos:closeMatch obo:UBERON_0002106 .
+
+tismedo:TISMEDT_000067
+    a owl:Class ;
+    rdfs:label "thymus gland" ;
+    rdfs:subClassOf tismedo:TISMEDT_000058 ;
+    skos:closeMatch obo:UBERON_0002370 .
+
+tismedo:TISMEDT_000068
+    a owl:Class ;
+    rdfs:label "Integumentary System" ;
+    skos:closeMatch obo:UBERON_0002416 .
+
+tismedo:TISMEDT_000069
+    a owl:Class ;
+    rdfs:label "skin" ;
+    rdfs:subClassOf tismedo:TISMEDT_000068 ;
+    skos:closeMatch obo:UBERON_0000014 .
+
+tismedo:TISMEDT_000070
+    a owl:Class ;
+    rdfs:label "skin_lower leg" ;
+    rdfs:subClassOf tismedo:TISMEDT_000069 ;
+    skos:closeMatch obo:UBERON_0004264 .
+
+tismedo:TISMEDT_000071
+    a owl:Class ;
+    rdfs:label "skin_suprapubic" ;
+    rdfs:subClassOf tismedo:TISMEDT_000069 .
+
+tismedo:TISMEDT_000072
+    a owl:Class ;
+    rdfs:label "Musculoskeletal System" ;
+    skos:closeMatch obo:UBERON_0002204 .
+
+tismedo:TISMEDT_000073
+    a owl:Class ;
+    rdfs:label "bone" ;
+    rdfs:subClassOf tismedo:TISMEDT_000072 ;
+    skos:closeMatch obo:UBERON_0002481 .
+
+tismedo:TISMEDT_000074
+    a owl:Class ;
+    rdfs:label "cartilage" ;
+    rdfs:subClassOf tismedo:TISMEDT_000072 ;
+    skos:closeMatch obo:UBERON_0002418 .
+
+tismedo:TISMEDT_000075
+    a owl:Class ;
+    rdfs:label "cartilage_articular cartilage" ;
+    rdfs:subClassOf tismedo:TISMEDT_000074 ;
+    skos:closeMatch obo:UBERON_0010996 .
+
+tismedo:TISMEDT_000076
+    a owl:Class ;
+    rdfs:label "muscle_colon smooth muscle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000033 .
+
+tismedo:TISMEDT_000077
+    a owl:Class ;
+    rdfs:label "muscle_gastrocnemius medialis" ;
+    rdfs:subClassOf tismedo:TISMEDT_000033 ;
+    skos:closeMatch obo:UBERON_0011907 .
+
+tismedo:TISMEDT_000078
+    a owl:Class ;
+    rdfs:label "muscle_heart muscle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000033 ;
+    skos:closeMatch obo:UBERON_0001133 .
+
+tismedo:TISMEDT_000079
+    a owl:Class ;
+    rdfs:label "muscle_psoas muscle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000033 ;
+    skos:closeMatch obo:UBERON_0008450 .
+
+tismedo:TISMEDT_000080
+    a owl:Class ;
+    rdfs:label "muscle_rectum smooth muscle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000033 ;
+    skos:closeMatch obo:UBERON_0018112 .
+
+tismedo:TISMEDT_000081
+    a owl:Class ;
+    rdfs:label "muscle_skeletal muscle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000033 ;
+    skos:closeMatch obo:UBERON_0001134 .
+
+tismedo:TISMEDT_000082
+    a owl:Class ;
+    rdfs:label "muscle_smooth muscle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000033 ;
+    skos:closeMatch obo:UBERON_0001135 .
+
+tismedo:TISMEDT_000083
+    a owl:Class ;
+    rdfs:label "muscle_stomach smooth muscle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000033 ;
+    skos:closeMatch obo:UBERON_0004222 .
+
+tismedo:TISMEDT_000084
+    a owl:Class ;
+    rdfs:label "Nervous System" ;
+    skos:closeMatch obo:UBERON_0001016 .
+
+tismedo:TISMEDT_000085
+    a owl:Class ;
+    rdfs:label "brain_amygdala" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001876 .
+
+tismedo:TISMEDT_000086
+    a owl:Class ;
+    rdfs:label "brain_angular gyrus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002686 .
+
+tismedo:TISMEDT_000087
+    a owl:Class ;
+    rdfs:label "brain_anterior caudate nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002626 .
+
+tismedo:TISMEDT_000088
+    a owl:Class ;
+    rdfs:label "brain_anterior funiculus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002180 .
+
+tismedo:TISMEDT_000089
+    a owl:Class ;
+    rdfs:label "brain_anterior thalamic nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002788 .
+
+tismedo:TISMEDT_000090
+    a owl:Class ;
+    rdfs:label "brain_arcuate nucleus of hypothalamus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001932 .
+
+tismedo:TISMEDT_000091
+    a owl:Class ;
+    rdfs:label "brain_area parastriata" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0006473 .
+
+tismedo:TISMEDT_000092
+    a owl:Class ;
+    rdfs:label "brain_area striata" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_8440010 .
+
+tismedo:TISMEDT_000093
+    a owl:Class ;
+    rdfs:label "brain_auditory cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001393 .
+
+tismedo:TISMEDT_000094
+    a owl:Class ;
+    rdfs:label "brain_basal nucleus of meynert" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0010010 .
+
+tismedo:TISMEDT_000095
+    a owl:Class ;
+    rdfs:label "brain_basolateral nuclear complex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0006107 .
+
+tismedo:TISMEDT_000096
+    a owl:Class ;
+    rdfs:label "brain_caudate nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001873 .
+
+tismedo:TISMEDT_000097
+    a owl:Class ;
+    rdfs:label "brain_central amygdaloid nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002883 .
+
+tismedo:TISMEDT_000098
+    a owl:Class ;
+    rdfs:label "brain_centromedial thalamic nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002972 .
+
+tismedo:TISMEDT_000099
+    a owl:Class ;
+    rdfs:label "brain_cerebellar cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002129 .
+
+tismedo:TISMEDT_000100
+    a owl:Class ;
+    rdfs:label "brain_cerebellar nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002130 .
+
+tismedo:TISMEDT_000101
+    a owl:Class ;
+    rdfs:label "brain_cerebellum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002037 .
+
+tismedo:TISMEDT_000102
+    a owl:Class ;
+    rdfs:label "brain_cerebellum peduncles" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0007416 .
+
+tismedo:TISMEDT_000103
+    a owl:Class ;
+    rdfs:label "brain_cerebral cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0000956 .
+
+tismedo:TISMEDT_000104
+    a owl:Class ;
+    rdfs:label "brain_cervical cord" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002726 .
+
+tismedo:TISMEDT_000105
+    a owl:Class ;
+    rdfs:label "brain_choroid plexus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001886 .
+
+tismedo:TISMEDT_000106
+    a owl:Class ;
+    rdfs:label "brain_claustrum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002023 .
+
+tismedo:TISMEDT_000107
+    a owl:Class ;
+    rdfs:label "brain_cochlear nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001720 .
+
+tismedo:TISMEDT_000108
+    a owl:Class ;
+    rdfs:label "brain_corpus callosum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002336 .
+
+tismedo:TISMEDT_000109
+    a owl:Class ;
+    rdfs:label "brain_corpus striatum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0000369 .
+
+tismedo:TISMEDT_000110
+    a owl:Class ;
+    rdfs:label "brain_corticomedial nuclear complex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0006108 .
+
+tismedo:TISMEDT_000111
+    a owl:Class ;
+    rdfs:label "brain_cuneate nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002045 .
+
+tismedo:TISMEDT_000112
+    a owl:Class ;
+    rdfs:label "brain_dentate gyrus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001885 .
+
+tismedo:TISMEDT_000113
+    a owl:Class ;
+    rdfs:label "brain_dorsal cochlear nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002829 .
+
+tismedo:TISMEDT_000114
+    a owl:Class ;
+    rdfs:label "brain_dorsal funiculus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002258 .
+
+tismedo:TISMEDT_000115
+    a owl:Class ;
+    rdfs:label "brain_dorsal medullary reticular nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002559 .
+
+tismedo:TISMEDT_000116
+    a owl:Class ;
+    rdfs:label "brain_dorsal motor vagal complex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002870 .
+
+tismedo:TISMEDT_000117
+    a owl:Class ;
+    rdfs:label "brain_dorsal raphe nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002043 .
+
+tismedo:TISMEDT_000118
+    a owl:Class ;
+    rdfs:label "brain_dorsal tegmental nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002143 .
+
+tismedo:TISMEDT_000119
+    a owl:Class ;
+    rdfs:label "brain_dorsolateral prefrontal cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0009834 .
+
+tismedo:TISMEDT_000120
+    a owl:Class ;
+    rdfs:label "brain_dorsolateral tegmental area" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000121
+    a owl:Class ;
+    rdfs:label "brain_dorsomedial prefrontal cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000122
+    a owl:Class ;
+    rdfs:label "brain_entorhinal cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002728 .
+
+tismedo:TISMEDT_000123
+    a owl:Class ;
+    rdfs:label "brain_entorhinal gyrus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002728 .
+
+tismedo:TISMEDT_000124
+    a owl:Class ;
+    rdfs:label "brain_facial nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0000127 .
+
+tismedo:TISMEDT_000125
+    a owl:Class ;
+    rdfs:label "brain_flocculonodular lobe" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0003012 .
+
+tismedo:TISMEDT_000126
+    a owl:Class ;
+    rdfs:label "brain_frontal lobe" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0016525 .
+
+tismedo:TISMEDT_000127
+    a owl:Class ;
+    rdfs:label "brain_frontal operculum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002947 .
+
+tismedo:TISMEDT_000128
+    a owl:Class ;
+    rdfs:label "brain_frontal pole cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002795 .
+
+tismedo:TISMEDT_000129
+    a owl:Class ;
+    rdfs:label "brain_frontomarginal cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000130
+    a owl:Class ;
+    rdfs:label "brain_frontopolar cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002795 .
+
+tismedo:TISMEDT_000131
+    a owl:Class ;
+    rdfs:label "brain_geniculate bodies" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001927 .
+
+tismedo:TISMEDT_000132
+    a owl:Class ;
+    rdfs:label "brain_germinal matrix" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000133
+    a owl:Class ;
+    rdfs:label "brain_gigantocellular reticular nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002155 .
+
+tismedo:TISMEDT_000134
+    a owl:Class ;
+    rdfs:label "brain_globus pallidus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001875 .
+
+tismedo:TISMEDT_000135
+    a owl:Class ;
+    rdfs:label "brain_grey matter" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002020 .
+
+tismedo:TISMEDT_000136
+    a owl:Class ;
+    rdfs:label "brain_gyrus cinguli" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002967 .
+
+tismedo:TISMEDT_000137
+    a owl:Class ;
+    rdfs:label "brain_habenula" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001904 .
+
+tismedo:TISMEDT_000138
+    a owl:Class ;
+    rdfs:label "brain_hippocampus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002421 .
+
+tismedo:TISMEDT_000139
+    a owl:Class ;
+    rdfs:label "brain_hypothalamus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001898 .
+
+tismedo:TISMEDT_000140
+    a owl:Class ;
+    rdfs:label "brain_inferior colliculus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001946 .
+
+tismedo:TISMEDT_000141
+    a owl:Class ;
+    rdfs:label "brain_inferior olive" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002127 .
+
+tismedo:TISMEDT_000142
+    a owl:Class ;
+    rdfs:label "brain_insular cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0034891 .
+
+tismedo:TISMEDT_000143
+    a owl:Class ;
+    rdfs:label "brain_intraparietal deep sulcus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000144
+    a owl:Class ;
+    rdfs:label "brain_Kolliker Fuse nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002869 .
+
+tismedo:TISMEDT_000145
+    a owl:Class ;
+    rdfs:label "brain_lateral funiculus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002179 .
+
+tismedo:TISMEDT_000146
+    a owl:Class ;
+    rdfs:label "brain_lateral lemniscal nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000147
+    a owl:Class ;
+    rdfs:label "brain_lateral medullary reticular nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002559 .
+
+tismedo:TISMEDT_000148
+    a owl:Class ;
+    rdfs:label "brain_lateral thalamic nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000149
+    a owl:Class ;
+    rdfs:label "brain_limbic lobe" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002600 .
+
+tismedo:TISMEDT_000150
+    a owl:Class ;
+    rdfs:label "brain_locus coeruleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002148 .
+
+tismedo:TISMEDT_000151
+    a owl:Class ;
+    rdfs:label "brain_mammillary bodies" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002206 .
+
+tismedo:TISMEDT_000152
+    a owl:Class ;
+    rdfs:label "brain_medial olivary nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002128 .
+
+tismedo:TISMEDT_000153
+    a owl:Class ;
+    rdfs:label "brain_medial periolivary nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002128 .
+
+tismedo:TISMEDT_000154
+    a owl:Class ;
+    rdfs:label "brain_median raphe nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0003004 .
+
+tismedo:TISMEDT_000155
+    a owl:Class ;
+    rdfs:label "brain_mediodorsal thalamic nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002739 .
+
+tismedo:TISMEDT_000156
+    a owl:Class ;
+    rdfs:label "brain_medulla oblongata" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001896 .
+
+tismedo:TISMEDT_000157
+    a owl:Class ;
+    rdfs:label "brain_mesencephalon" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001891 .
+
+tismedo:TISMEDT_000158
+    a owl:Class ;
+    rdfs:label "brain_midbrain reticular formation" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002639 .
+
+tismedo:TISMEDT_000159
+    a owl:Class ;
+    rdfs:label "brain_middle cingulate cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000160
+    a owl:Class ;
+    rdfs:label "brain_middle frontal gyrus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002702 .
+
+tismedo:TISMEDT_000161
+    a owl:Class ;
+    rdfs:label "brain_midline thalamic nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000162
+    a owl:Class ;
+    rdfs:label "brain_motor cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001384 .
+
+tismedo:TISMEDT_000163
+    a owl:Class ;
+    rdfs:label "brain_motor hypoglossal nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002871 .
+
+tismedo:TISMEDT_000164
+    a owl:Class ;
+    rdfs:label "brain_nuclei of the trapezoid body" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0007633 .
+
+tismedo:TISMEDT_000165
+    a owl:Class ;
+    rdfs:label "brain_nucleus accumbens" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001882 .
+
+tismedo:TISMEDT_000166
+    a owl:Class ;
+    rdfs:label "brain_nucleus cuneatus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002045 .
+
+tismedo:TISMEDT_000167
+    a owl:Class ;
+    rdfs:label "brain_nucleus gracilis" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002161 .
+
+tismedo:TISMEDT_000168
+    a owl:Class ;
+    rdfs:label "brain_nucleus raphe magnus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002156 .
+
+tismedo:TISMEDT_000169
+    a owl:Class ;
+    rdfs:label "brain_nucleus raphe obscurus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002684 .
+
+tismedo:TISMEDT_000170
+    a owl:Class ;
+    rdfs:label "brain_nucleus raphe pallidus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002157 .
+
+tismedo:TISMEDT_000171
+    a owl:Class ;
+    rdfs:label "brain_nucleus rhomboideus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000172
+    a owl:Class ;
+    rdfs:label "brain_occipital lobe" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002021 .
+
+tismedo:TISMEDT_000173
+    a owl:Class ;
+    rdfs:label "brain_olfactory area" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000174
+    a owl:Class ;
+    rdfs:label "brain_olfactory bulb" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002264 .
+
+tismedo:TISMEDT_000175
+    a owl:Class ;
+    rdfs:label "brain_olfactory tubercle" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001883 .
+
+tismedo:TISMEDT_000176
+    a owl:Class ;
+    rdfs:label "brain_parabrachial nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0007634 .
+
+tismedo:TISMEDT_000177
+    a owl:Class ;
+    rdfs:label "brain_paracentral lobule" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0035933 .
+
+tismedo:TISMEDT_000178
+    a owl:Class ;
+    rdfs:label "brain_parahippocampal cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002973 .
+
+tismedo:TISMEDT_000179
+    a owl:Class ;
+    rdfs:label "brain_paramedian reticular nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0007764 .
+
+tismedo:TISMEDT_000180
+    a owl:Class ;
+    rdfs:label "brain_parathyroid glands" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001132 .
+
+tismedo:TISMEDT_000181
+    a owl:Class ;
+    rdfs:label "brain_paraventricular hypothalamic nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001930 .
+
+tismedo:TISMEDT_000182
+    a owl:Class ;
+    rdfs:label "brain_parietal lobe" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001872 .
+
+tismedo:TISMEDT_000183
+    a owl:Class ;
+    rdfs:label "brain_parietal operculum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002911 .
+
+tismedo:TISMEDT_000184
+    a owl:Class ;
+    rdfs:label "brain_parieto insular vestibular cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000185
+    a owl:Class ;
+    rdfs:label "brain_parieto occipital transitional area" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000186
+    a owl:Class ;
+    rdfs:label "brain_parieto temporal junction" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000187
+    a owl:Class ;
+    rdfs:label "brain_parvicellular reticular nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0016633 .
+
+tismedo:TISMEDT_000188
+    a owl:Class ;
+    rdfs:label "brain_pedunculopontine tegmental nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002142 .
+
+tismedo:TISMEDT_000189
+    a owl:Class ;
+    rdfs:label "brain_periaquaductal grey" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0003040 .
+
+tismedo:TISMEDT_000190
+    a owl:Class ;
+    rdfs:label "brain_perirhinal gyrus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0006083 .
+
+tismedo:TISMEDT_000191
+    a owl:Class ;
+    rdfs:label "brain_peritrigeminal nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002879 .
+
+tismedo:TISMEDT_000192
+    a owl:Class ;
+    rdfs:label "brain_piriform cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0004725 .
+
+tismedo:TISMEDT_000193
+    a owl:Class ;
+    rdfs:label "brain_pons" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0000988 .
+
+tismedo:TISMEDT_000194
+    a owl:Class ;
+    rdfs:label "brain_pontine nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002151 .
+
+tismedo:TISMEDT_000195
+    a owl:Class ;
+    rdfs:label "brain_pontine tegmentum" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0003023 .
+
+tismedo:TISMEDT_000196
+    a owl:Class ;
+    rdfs:label "brain_posterior insular cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000197
+    a owl:Class ;
+    rdfs:label "brain_posterior thalamic nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002981 .
+
+tismedo:TISMEDT_000198
+    a owl:Class ;
+    rdfs:label "brain_posteroventral cochlear nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002831 .
+
+tismedo:TISMEDT_000199
+    a owl:Class ;
+    rdfs:label "brain_prefrontal cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0000451 .
+
+tismedo:TISMEDT_000200
+    a owl:Class ;
+    rdfs:label "brain_preoptic area" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001928 .
+
+tismedo:TISMEDT_000201
+    a owl:Class ;
+    rdfs:label "brain_prepositus hypoglossal nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002871 .
+
+tismedo:TISMEDT_000202
+    a owl:Class ;
+    rdfs:label "brain_pretectal region" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001944 .
+
+tismedo:TISMEDT_000203
+    a owl:Class ;
+    rdfs:label "brain_pulvinar" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002981 .
+
+tismedo:TISMEDT_000204
+    a owl:Class ;
+    rdfs:label "brain_putamen" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001874 .
+
+tismedo:TISMEDT_000205
+    a owl:Class ;
+    rdfs:label "brain_red nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001947 .
+
+tismedo:TISMEDT_000206
+    a owl:Class ;
+    rdfs:label "brain_reticulotegmental nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002147 .
+
+tismedo:TISMEDT_000207
+    a owl:Class ;
+    rdfs:label "brain_seminal vesicles" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0000998 .
+
+tismedo:TISMEDT_000208
+    a owl:Class ;
+    rdfs:label "brain_sensory cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0008930 .
+
+tismedo:TISMEDT_000209
+    a owl:Class ;
+    rdfs:label "brain_septal nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002663 .
+
+tismedo:TISMEDT_000210
+    a owl:Class ;
+    rdfs:label "brain_solitary nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0009050 .
+
+tismedo:TISMEDT_000211
+    a owl:Class ;
+    rdfs:label "brain_somatomor cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001384 .
+
+tismedo:TISMEDT_000212
+    a owl:Class ;
+    rdfs:label "brain_somatosensory cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0008930 .
+
+tismedo:TISMEDT_000213
+    a owl:Class ;
+    rdfs:label "brain_spinal cord" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002240 .
+
+tismedo:TISMEDT_000214
+    a owl:Class ;
+    rdfs:label "brain_spinal trigeminal nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002866 .
+
+tismedo:TISMEDT_000215
+    a owl:Class ;
+    rdfs:label "brain_spinal vestibular nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002673 .
+
+tismedo:TISMEDT_000216
+    a owl:Class ;
+    rdfs:label "brain_subcoeruleus area" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000217
+    a owl:Class ;
+    rdfs:label "brain_subgenual area" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000218
+    a owl:Class ;
+    rdfs:label "brain_substantia nigra" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002038 .
+
+tismedo:TISMEDT_000219
+    a owl:Class ;
+    rdfs:label "brain_subthalamic nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001906 .
+
+tismedo:TISMEDT_000220
+    a owl:Class ;
+    rdfs:label "brain_superior colliculus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001945 .
+
+tismedo:TISMEDT_000221
+    a owl:Class ;
+    rdfs:label "brain_superior olivary complex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002128 .
+
+tismedo:TISMEDT_000222
+    a owl:Class ;
+    rdfs:label "brain_superior vestibular nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0007227 .
+
+tismedo:TISMEDT_000223
+    a owl:Class ;
+    rdfs:label "brain_suprachiasmatic nucleu" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002034 .
+
+tismedo:TISMEDT_000224
+    a owl:Class ;
+    rdfs:label "brain_supraoptic nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001929 .
+
+tismedo:TISMEDT_000225
+    a owl:Class ;
+    rdfs:label "brain_temporal lobe" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001871 .
+
+tismedo:TISMEDT_000226
+    a owl:Class ;
+    rdfs:label "brain_temporal pole" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002576 .
+
+tismedo:TISMEDT_000227
+    a owl:Class ;
+    rdfs:label "brain_temporal white matter" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000228
+    a owl:Class ;
+    rdfs:label "brain_temporo insular cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000229
+    a owl:Class ;
+    rdfs:label "brain_temporo occipital transitional zone" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000230
+    a owl:Class ;
+    rdfs:label "brain_thalamus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001897 .
+
+tismedo:TISMEDT_000231
+    a owl:Class ;
+    rdfs:label "brain_trigeminal caudal nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002866 .
+
+tismedo:TISMEDT_000232
+    a owl:Class ;
+    rdfs:label "brain_trigeminal motor nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002633 .
+
+tismedo:TISMEDT_000233
+    a owl:Class ;
+    rdfs:label "brain_ventral medullary reticular nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002559 .
+
+tismedo:TISMEDT_000234
+    a owl:Class ;
+    rdfs:label "brain_ventral periolivary nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002128 .
+
+tismedo:TISMEDT_000235
+    a owl:Class ;
+    rdfs:label "brain_ventral tegmental area" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002691 .
+
+tismedo:TISMEDT_000236
+    a owl:Class ;
+    rdfs:label "brain_ventral thalamic nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000237
+    a owl:Class ;
+    rdfs:label "brain_ventrolateral medulla" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000238
+    a owl:Class ;
+    rdfs:label "brain_ventrolateral prefrontal cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000239
+    a owl:Class ;
+    rdfs:label "brain_ventrolateral tegmental area" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 .
+
+tismedo:TISMEDT_000240
+    a owl:Class ;
+    rdfs:label "brain_ventromedial nucleus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001935 .
+
+tismedo:TISMEDT_000241
+    a owl:Class ;
+    rdfs:label "brain_vermis" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0004720 .
+
+tismedo:TISMEDT_000242
+    a owl:Class ;
+    rdfs:label "brain_vestibular nuclei" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002673 .
+
+tismedo:TISMEDT_000243
+    a owl:Class ;
+    rdfs:label "brain_visual cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0000411 .
+
+tismedo:TISMEDT_000244
+    a owl:Class ;
+    rdfs:label "brain_white matter" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0002316 .
+
+tismedo:TISMEDT_000245
+    a owl:Class ;
+    rdfs:label "brain_zona incerta" ;
+    rdfs:subClassOf tismedo:TISMEDT_000051 ;
+    skos:closeMatch obo:UBERON_0001907 .
+
+tismedo:TISMEDT_000246
+    a owl:Class ;
+    rdfs:label "ganglia" ;
+    rdfs:subClassOf tismedo:TISMEDT_000084 ;
+    skos:closeMatch obo:UBERON_0000045 .
+
+tismedo:TISMEDT_000247
+    a owl:Class ;
+    rdfs:label "ganglia_parasympathetic ganglia" ;
+    rdfs:subClassOf tismedo:TISMEDT_000246 ;
+    skos:closeMatch obo:UBERON_0001808 .
+
+tismedo:TISMEDT_000248
+    a owl:Class ;
+    rdfs:label "ganglia_spinal ganglia" ;
+    rdfs:subClassOf tismedo:TISMEDT_000246 ;
+    skos:closeMatch obo:UBERON_0000044 .
+
+tismedo:TISMEDT_000249
+    a owl:Class ;
+    rdfs:label "ganglia_superior cervical ganglion" ;
+    rdfs:subClassOf tismedo:TISMEDT_000246 ;
+    skos:closeMatch obo:UBERON_0001989 .
+
+tismedo:TISMEDT_000250
+    a owl:Class ;
+    rdfs:label "ganglia_trigeminal ganglion" ;
+    rdfs:subClassOf tismedo:TISMEDT_000246 ;
+    skos:closeMatch obo:UBERON_0001675 .
+
+tismedo:TISMEDT_000251
+    a owl:Class ;
+    rdfs:label "neuroglia" ;
+    rdfs:subClassOf tismedo:TISMEDT_000084 .
+
+tismedo:TISMEDT_000252
+    a owl:Class ;
+    rdfs:label "neurons" ;
+    rdfs:subClassOf tismedo:TISMEDT_000084 .
+
+tismedo:TISMEDT_000253
+    a owl:Class ;
+    rdfs:label "spinal nerves" ;
+    rdfs:subClassOf tismedo:TISMEDT_000084 ;
+    skos:closeMatch obo:UBERON_0001780 .
+
+tismedo:TISMEDT_000254
+    a owl:Class ;
+    rdfs:label "spinal nerves_sciatic nerve" ;
+    rdfs:subClassOf tismedo:TISMEDT_000253 ;
+    skos:closeMatch obo:UBERON_0001322 .
+
+tismedo:TISMEDT_000255
+    a owl:Class ;
+    rdfs:label "spinal nerves_tibial nerve" ;
+    rdfs:subClassOf tismedo:TISMEDT_000253 ;
+    skos:closeMatch obo:UBERON_0001323 .
+
+tismedo:TISMEDT_000256
+    a owl:Class ;
+    rdfs:label "Other Systems" .
+
+tismedo:TISMEDT_000257
+    a owl:Class ;
+    rdfs:label "adipose tissue" ;
+    rdfs:subClassOf tismedo:TISMEDT_000256 ;
+    skos:closeMatch obo:UBERON_0001013 .
+
+tismedo:TISMEDT_000258
+    a owl:Class ;
+    rdfs:label "adipose tissue_abdominal" ;
+    rdfs:subClassOf tismedo:TISMEDT_000257 ;
+    skos:closeMatch obo:UBERON_0000916 .
+
+tismedo:TISMEDT_000259
+    a owl:Class ;
+    rdfs:label "adipose tissue_omental fat pad" ;
+    rdfs:subClassOf tismedo:TISMEDT_000257 ;
+    skos:closeMatch obo:UBERON_0010414 .
+
+tismedo:TISMEDT_000260
+    a owl:Class ;
+    rdfs:label "adipose tissue_subcutaneous" ;
+    rdfs:subClassOf tismedo:TISMEDT_000257 ;
+    skos:closeMatch obo:UBERON_0002190 .
+
+tismedo:TISMEDT_000261
+    a owl:Class ;
+    rdfs:label "adipose tissue_visceral" ;
+    rdfs:subClassOf tismedo:TISMEDT_000257 ;
+    skos:closeMatch obo:UBERON_0014454 .
+
+tismedo:TISMEDT_000262
+    a owl:Class ;
+    rdfs:label "breast" ;
+    rdfs:subClassOf tismedo:TISMEDT_000256 ;
+    skos:closeMatch obo:UBERON_0000310 .
+
+tismedo:TISMEDT_000263
+    a owl:Class ;
+    rdfs:label "breast_mammary gland" ;
+    rdfs:subClassOf tismedo:TISMEDT_000262 ;
+    skos:closeMatch obo:UBERON_0001911 .
+
+tismedo:TISMEDT_000264
+    a owl:Class ;
+    rdfs:label "placenta" ;
+    rdfs:subClassOf tismedo:TISMEDT_000256 ;
+    skos:closeMatch obo:UBERON_0001987 .
+
+tismedo:TISMEDT_000265
+    a owl:Class ;
+    rdfs:label "retina" ;
+    rdfs:subClassOf tismedo:TISMEDT_000256 ;
+    skos:closeMatch obo:UBERON_0000966 .
+
+tismedo:TISMEDT_000266
+    a owl:Class ;
+    rdfs:label "saliva" ;
+    rdfs:subClassOf tismedo:TISMEDT_000256 ;
+    skos:closeMatch obo:UBERON_0001836 .
+
+tismedo:TISMEDT_000267
+    a owl:Class ;
+    rdfs:label "Respiratory System" ;
+    skos:closeMatch obo:UBERON_0001004 .
+
+tismedo:TISMEDT_000268
+    a owl:Class ;
+    rdfs:label "lung" ;
+    rdfs:subClassOf tismedo:TISMEDT_000267 ;
+    skos:closeMatch obo:UBERON_0002048 .
+
+tismedo:TISMEDT_000269
+    a owl:Class ;
+    rdfs:label "lung_upper lobe of left lung" ;
+    rdfs:subClassOf tismedo:TISMEDT_000268 ;
+    skos:closeMatch obo:UBERON_0008952 .
+
+tismedo:TISMEDT_000270
+    a owl:Class ;
+    rdfs:label "nasopharynx" ;
+    rdfs:subClassOf tismedo:TISMEDT_000267 ;
+    skos:closeMatch obo:UBERON_0001728 .
+
+tismedo:TISMEDT_000271
+    a owl:Class ;
+    rdfs:label "nose" ;
+    rdfs:subClassOf tismedo:TISMEDT_000267 ;
+    skos:closeMatch obo:UBERON_0000004 .
+
+tismedo:TISMEDT_000272
+    a owl:Class ;
+    rdfs:label "nose_nasal mucosa" ;
+    rdfs:subClassOf tismedo:TISMEDT_000271 ;
+    skos:closeMatch obo:UBERON_0001826 .
+
+tismedo:TISMEDT_000273
+    a owl:Class ;
+    rdfs:label "trachea" ;
+    rdfs:subClassOf tismedo:TISMEDT_000267 ;
+    skos:closeMatch obo:UBERON_0003126 .
+
+tismedo:TISMEDT_000274
+    a owl:Class ;
+    rdfs:label "Stomatognathic System" .
+
+tismedo:TISMEDT_000275
+    a owl:Class ;
+    rdfs:label "Urogenital System" ;
+    skos:closeMatch obo:UBERON_0004122 .
+
+tismedo:TISMEDT_000276
+    a owl:Class ;
+    rdfs:label "cervix uteri" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 ;
+    skos:closeMatch obo:UBERON_0000002 .
+
+tismedo:TISMEDT_000277
+    a owl:Class ;
+    rdfs:label "cervix uteri_ectocervix" ;
+    rdfs:subClassOf tismedo:TISMEDT_000276 ;
+    skos:closeMatch obo:UBERON_0012249 .
+
+tismedo:TISMEDT_000278
+    a owl:Class ;
+    rdfs:label "cervix uteri_endocervix" ;
+    rdfs:subClassOf tismedo:TISMEDT_000276 ;
+    skos:closeMatch obo:UBERON_0000458 .
+
+tismedo:TISMEDT_000279
+    a owl:Class ;
+    rdfs:label "endometrium" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 ;
+    skos:closeMatch obo:UBERON_0001295 .
+
+tismedo:TISMEDT_000280
+    a owl:Class ;
+    rdfs:label "epididymis" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 ;
+    skos:closeMatch obo:UBERON_0001301 .
+
+tismedo:TISMEDT_000281
+    a owl:Class ;
+    rdfs:label "fallopian tube" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 ;
+    skos:closeMatch obo:UBERON_0003889 .
+
+tismedo:TISMEDT_000282
+    a owl:Class ;
+    rdfs:label "kidney" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 ;
+    skos:closeMatch obo:UBERON_0002113 .
+
+tismedo:TISMEDT_000283
+    a owl:Class ;
+    rdfs:label "kidney_cortex" ;
+    rdfs:subClassOf tismedo:TISMEDT_000282 ;
+    skos:closeMatch obo:UBERON_0001851 .
+
+tismedo:TISMEDT_000284
+    a owl:Class ;
+    rdfs:label "kidney_medulla" ;
+    rdfs:subClassOf tismedo:TISMEDT_000282 ;
+    skos:closeMatch obo:UBERON_0000362 .
+
+tismedo:TISMEDT_000285
+    a owl:Class ;
+    rdfs:label "prostate" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 ;
+    skos:closeMatch obo:UBERON_0002367 .
+
+tismedo:TISMEDT_000286
+    a owl:Class ;
+    rdfs:label "spermatozoa" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 .
+
+tismedo:TISMEDT_000287
+    a owl:Class ;
+    rdfs:label "testis_seminiferous tubule" ;
+    rdfs:subClassOf tismedo:TISMEDT_000055 ;
+    skos:closeMatch obo:UBERON_0001343 .
+
+tismedo:TISMEDT_000288
+    a owl:Class ;
+    rdfs:label "urinary bladder" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 ;
+    skos:closeMatch obo:UBERON_0001255 .
+
+tismedo:TISMEDT_000289
+    a owl:Class ;
+    rdfs:label "uterus" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 ;
+    skos:closeMatch obo:UBERON_0000995 .
+
+tismedo:TISMEDT_000290
+    a owl:Class ;
+    rdfs:label "vagina" ;
+    rdfs:subClassOf tismedo:TISMEDT_000275 ;
+    skos:closeMatch obo:UBERON_0000996 .
+

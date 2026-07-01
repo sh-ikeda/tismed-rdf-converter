@@ -1,0 +1,265 @@
+System Term	Tissue Term	Sub-tissue Term
+Cardiovascular System	arteries	arteries_abdominal aorta
+Cardiovascular System	arteries	arteries_aorta
+Cardiovascular System	arteries	arteries_ascending aorta
+Cardiovascular System	arteries	arteries_coronary vessels
+Cardiovascular System	arteries	arteries_splenic artery
+Cardiovascular System	arteries	arteries_thoracic aorta
+Cardiovascular System	arteries	arteries_tibial arteries
+Cardiovascular System	heart	heart_atrial appendage
+Cardiovascular System	heart	heart_atrioventricular node
+Cardiovascular System	heart	heart_left ventricle
+Cardiovascular System	heart	heart_pericardium
+Cardiovascular System	heart	heart_right atrium
+Cardiovascular System	heart	heart_right atrium auricular region
+Cardiovascular System	heart	heart_right ventricle
+Digestive System	cecum	cecum_appendix
+Digestive System	colon	colon_sigmoid colon
+Digestive System	colon	colon_transverse colon
+Digestive System	esophagus	esophagus_gastroesophageal junction
+Digestive System	esophagus	esophagus_mucosa
+Digestive System	esophagus	esophagus_muscularis
+Digestive System	esophagus	esophagus_muscularis mucosa
+Digestive System	esophagus	esophagus_squamous epithelium
+Digestive System	gallbladder	-
+Digestive System	liver	liver_right lobe
+Digestive System	muscle	muscle_esophageal sphincter
+Digestive System	pancreas	pancreas_islets of langerhans
+Digestive System	rectum	rectum_mucosa
+Digestive System	salivary gland	salivary gland_minor
+Digestive System	small intestine	small intestine_duodenum
+Digestive System	small intestine	small intestine_ileum
+Digestive System	small intestine	small intestine_jejunum
+Digestive System	stomach	stomach_gastric mucosa
+Digestive System	tongue	-
+Endocrine System	adrenal gland	adrenal gland_cortex
+Endocrine System	brain	brain_area postrema
+Endocrine System	brain	brain_pituitary gland
+Endocrine System	ovary	-
+Endocrine System	pancreas	pancreas_islets of langerhans
+Endocrine System	testis	testis_interstitial
+Endocrine System	thyroid gland	-
+Hemic and Immune Systems	blood	blood_cord blood
+Hemic and Immune Systems	bone marrow	bone marrow_red
+Hemic and Immune Systems	bone marrow	bone marrow_yellow
+Hemic and Immune Systems	lymph nodes	-
+Hemic and Immune Systems	palatine tonsil	-
+Hemic and Immune Systems	spleen	-
+Hemic and Immune Systems	thymus gland	-
+Integumentary System	skin	skin_lower leg
+Integumentary System	skin	skin_suprapubic
+Musculoskeletal System	bone	-
+Musculoskeletal System	cartilage	cartilage_articular cartilage
+Musculoskeletal System	muscle	muscle_colon smooth muscle
+Musculoskeletal System	muscle	muscle_esophageal sphincter
+Musculoskeletal System	muscle	muscle_gastrocnemius medialis
+Musculoskeletal System	muscle	muscle_heart muscle
+Musculoskeletal System	muscle	muscle_psoas muscle
+Musculoskeletal System	muscle	muscle_rectum smooth muscle
+Musculoskeletal System	muscle	muscle_skeletal muscle
+Musculoskeletal System	muscle	muscle_smooth muscle
+Musculoskeletal System	muscle	muscle_stomach smooth muscle
+Nervous System	brain	brain_amygdala
+Nervous System	brain	brain_angular gyrus
+Nervous System	brain	brain_anterior caudate nucleus
+Nervous System	brain	brain_anterior funiculus
+Nervous System	brain	brain_anterior thalamic nucleus
+Nervous System	brain	brain_arcuate nucleus of hypothalamus
+Nervous System	brain	brain_area parastriata
+Nervous System	brain	brain_area postrema
+Nervous System	brain	brain_area striata
+Nervous System	brain	brain_auditory cortex
+Nervous System	brain	brain_basal nucleus of meynert
+Nervous System	brain	brain_basolateral nuclear complex
+Nervous System	brain	brain_caudate nucleus
+Nervous System	brain	brain_central amygdaloid nucleus
+Nervous System	brain	brain_centromedial thalamic nucleus
+Nervous System	brain	brain_cerebellar cortex
+Nervous System	brain	brain_cerebellar nuclei
+Nervous System	brain	brain_cerebellum
+Nervous System	brain	brain_cerebellum peduncles
+Nervous System	brain	brain_cerebral cortex
+Nervous System	brain	brain_cervical cord
+Nervous System	brain	brain_choroid plexus
+Nervous System	brain	brain_claustrum
+Nervous System	brain	brain_cochlear nucleus
+Nervous System	brain	brain_corpus callosum
+Nervous System	brain	brain_corpus striatum
+Nervous System	brain	brain_corticomedial nuclear complex
+Nervous System	brain	brain_cuneate nuclei
+Nervous System	brain	brain_dentate gyrus
+Nervous System	brain	brain_dorsal cochlear nucleus
+Nervous System	brain	brain_dorsal funiculus
+Nervous System	brain	brain_dorsal medullary reticular nucleus
+Nervous System	brain	brain_dorsal motor vagal complex
+Nervous System	brain	brain_dorsal raphe nucleus
+Nervous System	brain	brain_dorsal tegmental nucleus
+Nervous System	brain	brain_dorsolateral prefrontal cortex
+Nervous System	brain	brain_dorsolateral tegmental area
+Nervous System	brain	brain_dorsomedial prefrontal cortex
+Nervous System	brain	brain_entorhinal cortex
+Nervous System	brain	brain_entorhinal gyrus
+Nervous System	brain	brain_facial nucleus
+Nervous System	brain	brain_flocculonodular lobe
+Nervous System	brain	brain_frontal lobe
+Nervous System	brain	brain_frontal operculum
+Nervous System	brain	brain_frontal pole cortex
+Nervous System	brain	brain_frontomarginal cortex
+Nervous System	brain	brain_frontopolar cortex
+Nervous System	brain	brain_geniculate bodies
+Nervous System	brain	brain_germinal matrix
+Nervous System	brain	brain_gigantocellular reticular nuclei
+Nervous System	brain	brain_globus pallidus
+Nervous System	brain	brain_grey matter
+Nervous System	brain	brain_gyrus cinguli
+Nervous System	brain	brain_habenula
+Nervous System	brain	brain_hippocampus
+Nervous System	brain	brain_hypothalamus
+Nervous System	brain	brain_inferior colliculus
+Nervous System	brain	brain_inferior olive
+Nervous System	brain	brain_insular cortex
+Nervous System	brain	brain_intraparietal deep sulcus
+Nervous System	brain	brain_Kolliker Fuse nucleus
+Nervous System	brain	brain_lateral funiculus
+Nervous System	brain	brain_lateral lemniscal nuclei
+Nervous System	brain	brain_lateral medullary reticular nucleus
+Nervous System	brain	brain_lateral thalamic nuclei
+Nervous System	brain	brain_limbic lobe
+Nervous System	brain	brain_locus coeruleus
+Nervous System	brain	brain_mammillary bodies
+Nervous System	brain	brain_medial olivary nucleus
+Nervous System	brain	brain_medial periolivary nuclei
+Nervous System	brain	brain_median raphe nucleus
+Nervous System	brain	brain_mediodorsal thalamic nucleus
+Nervous System	brain	brain_medulla oblongata
+Nervous System	brain	brain_mesencephalon
+Nervous System	brain	brain_midbrain reticular formation
+Nervous System	brain	brain_middle cingulate cortex
+Nervous System	brain	brain_middle frontal gyrus
+Nervous System	brain	brain_midline thalamic nuclei
+Nervous System	brain	brain_motor cortex
+Nervous System	brain	brain_motor hypoglossal nucleus
+Nervous System	brain	brain_nuclei of the trapezoid body
+Nervous System	brain	brain_nucleus accumbens
+Nervous System	brain	brain_nucleus cuneatus
+Nervous System	brain	brain_nucleus gracilis
+Nervous System	brain	brain_nucleus raphe magnus
+Nervous System	brain	brain_nucleus raphe obscurus
+Nervous System	brain	brain_nucleus raphe pallidus
+Nervous System	brain	brain_nucleus rhomboideus
+Nervous System	brain	brain_occipital lobe
+Nervous System	brain	brain_olfactory area
+Nervous System	brain	brain_olfactory bulb
+Nervous System	brain	brain_olfactory tubercle
+Nervous System	brain	brain_parabrachial nucleus
+Nervous System	brain	brain_paracentral lobule
+Nervous System	brain	brain_parahippocampal cortex
+Nervous System	brain	brain_paramedian reticular nucleus
+Nervous System	brain	brain_parathyroid glands
+Nervous System	brain	brain_paraventricular hypothalamic nucleus
+Nervous System	brain	brain_parietal lobe
+Nervous System	brain	brain_parietal operculum
+Nervous System	brain	brain_parieto insular vestibular cortex
+Nervous System	brain	brain_parieto occipital transitional area
+Nervous System	brain	brain_parieto temporal junction
+Nervous System	brain	brain_parvicellular reticular nuclei
+Nervous System	brain	brain_pedunculopontine tegmental nucleus
+Nervous System	brain	brain_periaquaductal grey
+Nervous System	brain	brain_perirhinal gyrus
+Nervous System	brain	brain_peritrigeminal nucleus
+Nervous System	brain	brain_piriform cortex
+Nervous System	brain	brain_pituitary gland
+Nervous System	brain	brain_pons
+Nervous System	brain	brain_pontine nuclei
+Nervous System	brain	brain_pontine tegmentum
+Nervous System	brain	brain_posterior insular cortex
+Nervous System	brain	brain_posterior thalamic nucleus
+Nervous System	brain	brain_posteroventral cochlear nucleus
+Nervous System	brain	brain_prefrontal cortex
+Nervous System	brain	brain_preoptic area
+Nervous System	brain	brain_prepositus hypoglossal nucleus
+Nervous System	brain	brain_pretectal region
+Nervous System	brain	brain_pulvinar
+Nervous System	brain	brain_putamen
+Nervous System	brain	brain_red nucleus
+Nervous System	brain	brain_reticulotegmental nucleus
+Nervous System	brain	brain_seminal vesicles
+Nervous System	brain	brain_sensory cortex
+Nervous System	brain	brain_septal nuclei
+Nervous System	brain	brain_solitary nucleus
+Nervous System	brain	brain_somatomor cortex
+Nervous System	brain	brain_somatosensory cortex
+Nervous System	brain	brain_spinal cord
+Nervous System	brain	brain_spinal trigeminal nucleus
+Nervous System	brain	brain_spinal vestibular nucleus
+Nervous System	brain	brain_subcoeruleus area
+Nervous System	brain	brain_subgenual area
+Nervous System	brain	brain_substantia nigra
+Nervous System	brain	brain_subthalamic nucleus
+Nervous System	brain	brain_superior colliculus
+Nervous System	brain	brain_superior olivary complex
+Nervous System	brain	brain_superior vestibular nucleus
+Nervous System	brain	brain_suprachiasmatic nucleu
+Nervous System	brain	brain_supraoptic nucleus
+Nervous System	brain	brain_temporal lobe
+Nervous System	brain	brain_temporal pole
+Nervous System	brain	brain_temporal white matter
+Nervous System	brain	brain_temporo insular cortex
+Nervous System	brain	brain_temporo occipital transitional zone
+Nervous System	brain	brain_thalamus
+Nervous System	brain	brain_trigeminal caudal nucleus
+Nervous System	brain	brain_trigeminal motor nucleus
+Nervous System	brain	brain_ventral medullary reticular nucleus
+Nervous System	brain	brain_ventral periolivary nuclei
+Nervous System	brain	brain_ventral tegmental area
+Nervous System	brain	brain_ventral thalamic nuclei
+Nervous System	brain	brain_ventrolateral medulla
+Nervous System	brain	brain_ventrolateral prefrontal cortex
+Nervous System	brain	brain_ventrolateral tegmental area
+Nervous System	brain	brain_ventromedial nucleus
+Nervous System	brain	brain_vermis
+Nervous System	brain	brain_vestibular nuclei
+Nervous System	brain	brain_visual cortex
+Nervous System	brain	brain_white matter
+Nervous System	brain	brain_zona incerta
+Nervous System	ganglia	ganglia_parasympathetic ganglia
+Nervous System	ganglia	ganglia_spinal ganglia
+Nervous System	ganglia	ganglia_superior cervical ganglion
+Nervous System	ganglia	ganglia_trigeminal ganglion
+Nervous System	neuroglia	-
+Nervous System	neurons	-
+Nervous System	spinal nerves	spinal nerves_sciatic nerve
+Nervous System	spinal nerves	spinal nerves_tibial nerve
+Nervous System	stomach	stomach_gastric mucosa
+Other Systems	adipose tissue	adipose tissue_abdominal
+Other Systems	adipose tissue	adipose tissue_omental fat pad
+Other Systems	adipose tissue	adipose tissue_subcutaneous
+Other Systems	adipose tissue	adipose tissue_visceral
+Other Systems	breast	breast_mammary gland
+Other Systems	placenta	-
+Other Systems	retina	-
+Other Systems	saliva	-
+Respiratory System	lung	lung_upper lobe of left lung
+Respiratory System	nasopharynx	-
+Respiratory System	nose	nose_nasal mucosa
+Respiratory System	palatine tonsil	-
+Respiratory System	trachea	-
+Stomatognathic System	nasopharynx	-
+Stomatognathic System	palatine tonsil	-
+Stomatognathic System	salivary gland	salivary gland_minor
+Stomatognathic System	tongue	-
+Urogenital System	cervix uteri	cervix uteri_ectocervix
+Urogenital System	cervix uteri	cervix uteri_endocervix
+Urogenital System	endometrium	-
+Urogenital System	epididymis	-
+Urogenital System	fallopian tube	-
+Urogenital System	kidney	kidney_cortex
+Urogenital System	kidney	kidney_medulla
+Urogenital System	ovary	-
+Urogenital System	prostate	-
+Urogenital System	spermatozoa	-
+Urogenital System	testis	testis_interstitial
+Urogenital System	testis	testis_seminiferous tubule
+Urogenital System	urinary bladder	-
+Urogenital System	uterus	-
+Urogenital System	vagina	-

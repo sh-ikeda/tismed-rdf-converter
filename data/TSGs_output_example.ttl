@@ -1,0 +1,11 @@
+@prefix ensg: <http://rdf.ebi.ac.uk/resource/ensembl/> .
+@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> .
+
+ensg:ENSG00000121410 a tismedo:ts_evaluated_gene ;
+    tismedo:hasGeneExpressionSpecificity [
+        tismedo:isPositivelySpecificTo tismedo:TISMEDT_000031 ;
+        tismedo:meanSpmAdjustValue 0.93 ;
+        tismedo:tScore 1 ;
+        tismedo:supportDatasetCount 7 ;
+        tismedo:hasTissueSpecificProtein false
+    ] .
