@@ -1,0 +1,11 @@
+title: TiSMeD RDF
+website: https://www.bio-add.org/TiSMeD/index.jsp
+description: TiSMeD is the one-stop combo repository for tissue-specific DNA methylation and expression data, designed to provide a valuable reference for identifying highly sensitive and specific biomarkers for precise cancer diagnosis, as well as enabling non-invasive tissue-of-origin tracing of circulating cell-free DNA (ccfDNA).
+tags: [ Gene, Protein ]
+provider: Bioinformatics-Aided Drug Discovery Group, Xiamen University
+creators:
+  - name: Shuya Ikeda
+version: 1.0
+issued: 2026-07-01
+licenses:
+  - ""
