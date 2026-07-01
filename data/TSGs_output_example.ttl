@@ -3,6 +3,7 @@
 
 ensg:ENSG00000121410 a tismedo:ts_evaluated_gene ;
     tismedo:hasGeneExpressionSpecificity [
+        a tismedo:GeneExpressionSpecificity ;
         tismedo:isPositivelySpecificTo tismedo:TISMEDT_000031 ;
         tismedo:meanSpmAdjustValue 0.93 ;
         tismedo:tScore 1 ;
