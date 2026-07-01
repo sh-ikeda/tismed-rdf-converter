@@ -1,4 +1,6 @@
 # TiSMeD RDF converter
+組織特異的遺伝子発現のデータベース [TiSMeD](https://www.bio-add.org/TiSMeD/index.jsp) の RDF 化を行うスクリプト群。
+
 ## 入力ファイル
 - TSGs.tsv
   - 配布元: https://www.bio-add.org/TiSMeD/download.jsp
@@ -17,8 +19,8 @@ Cardiovascular System	arteries	arteries_aorta
 ### オントロジーファイル作成
 TiSMeD 定義の組織分類に ID を割り当てる。  
 ```
-awk -f scripts/tissue_hierarchy_ids.awk data/tismed_tissue_hierarchy.tsv > data/tismed_tissue_ids.tsv
-```
+awk -f scripts/tissue_hierarchy_ids.awk data/tismed_tissue_hierarchy.tsv > data/tismed_tissue_ids.tsv``
+`
 ラベルを UBERON にマッピング。EBI OLS の MCP サーバーを使ってマッピングを実施した結果を `/data/tismed_tissue_ids_with_uberon.tsv` として配置した。  
 
 これをオントロジーの turtle ファイルに変換する。  
