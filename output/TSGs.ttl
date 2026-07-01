@@ -1,6 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ensg: <http://rdf.ebi.ac.uk/resource/ensembl/> .
-@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> .
+@prefix tismedo: <http://med2rdf.org/tismed/ontology#> .
 
 ensg:ENSG00000000938
     tismedo:hasGeneExpressionSpecificity [

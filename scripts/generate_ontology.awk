@@ -1,6 +1,6 @@
 BEGIN {
     FS = "\t"
-    print "@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> ."
+    print "@prefix tismedo: <http://med2rdf.org/tismed/ontology#> ."
     print "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> ."
     print "@prefix skos: <http://www.w3.org/2004/02/skos/core#> ."
     print "@prefix owl: <http://www.w3.org/2002/07/owl#> ."

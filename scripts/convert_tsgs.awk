@@ -1,7 +1,7 @@
 BEGIN {
     FS = "\t"
     print "@prefix ensg: <http://rdf.ebi.ac.uk/resource/ensembl/> ."
-    print "@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> ."
+    print "@prefix tismedo: <http://med2rdf.org/tismed/ontology#> ."
     print ""
 }
 

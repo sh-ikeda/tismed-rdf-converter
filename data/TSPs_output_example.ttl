@@ -1,5 +1,5 @@
 @prefix uniprot: <http://purl.uniprot.org/uniprot/> .
-@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> .
+@prefix tismedo: <http://med2rdf.org/tismed/ontology#> .
 
 uniprot:Q9NQ94 a tismedo:ts_evaluated_protein ;
     tismedo:hasProteinExpressionSpecificity [

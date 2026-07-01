@@ -1,6 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix uniprot: <http://purl.uniprot.org/uniprot/> .
-@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> .
+@prefix tismedo: <http://med2rdf.org/tismed/ontology#> .
 
 uniprot:A0JNW5
     tismedo:hasProteinExpressionSpecificity [

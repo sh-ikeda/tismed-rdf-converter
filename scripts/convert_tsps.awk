@@ -1,7 +1,7 @@
 BEGIN {
     FS = "\t"
     print "@prefix uniprot: <http://purl.uniprot.org/uniprot/> ."
-    print "@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> ."
+    print "@prefix tismedo: <http://med2rdf.org/tismed/ontology#> ."
     print ""
 }
 

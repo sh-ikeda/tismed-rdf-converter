@@ -1,5 +1,5 @@
 @prefix ensg: <http://rdf.ebi.ac.uk/resource/ensembl/> .
-@prefix tismedo: <http://med2rdf.org/ontology/med2rdf/tismed/> .
+@prefix tismedo: <http://med2rdf.org/tismed/ontology#> .
 
 ensg:ENSG00000121410 a tismedo:ts_evaluated_gene ;
     tismedo:hasGeneExpressionSpecificity [
